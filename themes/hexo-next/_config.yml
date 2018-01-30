@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, Molunerfinn"
+keywords: "Hexo, zouyaoji"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -133,7 +133,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  Github: https://github.com/Molunerfinn
+  Github: https://github.com/zouyaoji
 
 
 # Social Links Icons
@@ -266,12 +266,12 @@ mathjax:
 baidu_analytics: 19a7ebdbb87f2403773c7ab0cae16d21
 
 # Duoshuo ShortName
-#duoshuo_shortname: molunerfinn
+#duoshuo_shortname: zouyaoji
 
 # Disqus
 disqus:
-  enable: true
-  shortname: molunerfinn
+  enable: false
+  shortname: zouyaoji
   count: true
 
 # Hypercomments

@@ -72,9 +72,9 @@ wordcount:
   enable: true
 
 social:
-  github: https://github.com/Molunerfinn
-  weibo: http://weibo.com/mybluedreams/
-  rss: https://molunerfinn.com/atom.xml
+  github: https://github.com/zouyaoji
+  # weibo: http://weibo.com/zouyaoji/
+  # rss: https://zouyaoji.com/atom.xml
 
 post_meta:
   date_type: created # created or updated 
@@ -102,12 +102,19 @@ addThis:
   pubid: ra-5994f8f0fea9a5f4
 
 disqus:
-  enable: true
-  shortname: molunerfinn
+  enable: false
+  shortname: zouyaoji
   count: true
 
-adv:
+gitment:
   enable: true
+  owner: zouyaoji
+  repo: img_gitalk
+  client_id: 356faf5e85c8482941a9 
+  client_secret: 1a065f1fdf6d721f147d5355a3ae2354e5b88ae6
+
+adv:
+  enable: false
   info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="100%" height="90"></a>
 
 
@@ -139,7 +146,7 @@ busuanzi:
 # Links
 links_title: Links
 links:
-  Molunerfinn: https://molunerfinn.com
+  zouyaoji: https://zouyaoji.top
   Elody: https://elody-07.github.io
 
 # Version
