@@ -1,0 +1,146 @@
+# html lang
+language: zh
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+
+# PWA
+pwa:
+  enable: true
+  manifest: /manifest.json
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# highlight
+highlight_theme: default
+
+# fireworks
+fireworks: true
+
+# Analysis
+baidu_analytics: 19a7ebdbb87f2403773c7ab0cae16d21
+google_analytics: UA-105869658-1
+
+# algolia_search
+algolia_search:
+  enable: true
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
+    hits_stats: "${hits} results found in ${time} ms"
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/index.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/utils.js
+- /js/fancybox.js
+- /js/sidebar.js
+- /js/copy.js
+- /js/fireworks.js
+- /js/transition.js
+- /js/scroll.js
+- /js/head.js
+
+cdn:
+  css:
+    fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css 
+  js:
+    anime: https://cdn.bootcss.com/animejs/2.0.2/anime.min.js
+    jquery: https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js
+    fancybox: https://cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.js
+    velocity: https://cdn.bootcss.com/velocity/1.5.0/velocity.min.js
+    velocity-ui: https://cdn.bootcss.com/velocity/1.5.0/velocity.ui.min.js 
+
+# Post info settings
+
+avatar: https://ws1.sinaimg.cn/large/8700af19ly1fm4iuz15lsj20ix0iw0u8
+
+top_img: https://ws1.sinaimg.cn/large/8700af19ly1fnp7q2phkzj21hc0xc0yl 
+
+wordcount:
+  enable: true
+
+social:
+  github: https://github.com/Molunerfinn
+  weibo: http://weibo.com/mybluedreams/
+  rss: https://molunerfinn.com/atom.xml
+
+post_meta:
+  date_type: created # created or updated 
+  categories: true
+  tags: true
+
+toc:
+  enable: true
+
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+QR_code:
+  - itemlist:
+      img: https://ws1.sinaimg.cn/large/8700af19ly1fjmba1eumhj20jz0jzq4b.jpg
+      text: 支付宝打赏
+  - itemlist:
+      img: https://ws1.sinaimg.cn/large/8700af19ly1fjmbbmp7uwj20jm0jmt9a.jpg
+      text: 微信打赏
+
+addThis:
+  enable: true
+  pubid: ra-5994f8f0fea9a5f4
+
+disqus:
+  enable: true
+  shortname: molunerfinn
+  count: true
+
+adv:
+  enable: true
+  info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="100%" height="90"></a>
+
+
+since: 2015
+
+ICP:
+  enable: false
+  text: 
+
+# busuanzi count for PV / UV in site
+busuanzi:
+  # count values only if the other configs are false
+  enable: true
+  # custom uv span for the whole site
+  site_uv: true
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer: 
+  # custom pv span for the whole site
+  site_pv: true
+  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_footer: 
+  # custom pv span for one page only
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer: 
+
+# Sidebar Settings
+
+# Links
+links_title: Links
+links:
+  Molunerfinn: https://molunerfinn.com
+  Elody: https://elody-07.github.io
+
+# Version
+version: 1.4
