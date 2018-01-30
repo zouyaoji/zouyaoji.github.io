@@ -159,7 +159,7 @@ offline:
     - urlPattern: /*
       handler: cacheFirst
       options:
-        origin: molunerfinn.com
+        origin: zouyaoji.top
     - urlPattern: /*
       handler: cacheFirst
       options:
