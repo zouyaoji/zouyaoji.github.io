@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zouyaojiのBlog
+title: zouyaojiのBlog 
 subtitle: Do what you love,Love what you do
 description: For MElody
-author: zouyaoji
+author: zouyaoji 
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://zouyaoji.top
+url: https://zouyaoji.top 
 root: / 
 permalink: :title/
 permalink_defaults:
@@ -71,21 +71,21 @@ feed:
   path: atom.xml
   limit: 20
 
-# algolia: 
-#   appId: "BGLU1ICJFH"
-#   apiKey: "de05646e7bb736b8478e6854743e5963"
-#   adminApiKey: "32f0096d77eb438d15625b2509a11984"
-#   indexName: "mofinn"
-#   chunkSize: 5000
-#   fields:
-#     - title
-#     - tags
-#     - categories
-#     - excerpt:strip
-#     - content:strip
-#     - slug
-#     - permalink
-#     - path
+algolia: 
+  appId: "BGLU1ICJFH"
+  apiKey: "de05646e7bb736b8478e6854743e5963"
+  adminApiKey: "32f0096d77eb438d15625b2509a11984"
+  indexName: "mofinn"
+  chunkSize: 5000
+  fields:
+    - title
+    - tags
+    - categories
+    - excerpt:strip
+    - content:strip
+    - slug
+    - permalink
+    - path
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
