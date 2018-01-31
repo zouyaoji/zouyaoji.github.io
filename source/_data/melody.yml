@@ -109,6 +109,7 @@ disqus:
 gitment:
   enable: true
   owner: zouyaoji
+  admin: zouyaoji
   repo: img_gitalk
   client_id: 1ae44aed6a14ec18b48b 
   client_secret: cc37c66926a5af47204655fb665081b989c003b5
