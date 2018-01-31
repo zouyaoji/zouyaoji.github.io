@@ -66,3 +66,5 @@ Linux基本操作、Vim较熟练、Sublime熟悉、VSCode熟悉、Git熟悉。
 - **2015.12** 开始接触Vue，学习Express，Mongodb
 
 还需努力。
+
+![](https://ws1.sinaimg.cn/large/7a5fa15ely1fnznb9sovlj228o1jlnpd)

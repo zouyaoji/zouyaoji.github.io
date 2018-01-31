@@ -110,8 +110,8 @@ gitment:
   enable: true
   owner: zouyaoji
   repo: img_gitalk
-  client_id: 356faf5e85c8482941a9 
-  client_secret: 1a065f1fdf6d721f147d5355a3ae2354e5b88ae6
+  client_id: 1ae44aed6a14ec18b48b 
+  client_secret: cc37c66926a5af47204655fb665081b989c003b5
 
 adv:
   enable: false
