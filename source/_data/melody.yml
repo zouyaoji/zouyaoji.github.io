@@ -98,12 +98,12 @@ QR_code:
       text: 微信打赏
 
 addThis:
-  enable: false
-  pubid: ra-5994f8f0fea9a5f4
-
-sharejs:
   enable: true
-  disabled_sites: google,facebook
+  pubid: ra-5a7153ea5c832f98
+
+# sharejs:
+#   enable: true
+#   disabled_sites: google,facebook
 
 disqus:
   enable: false
