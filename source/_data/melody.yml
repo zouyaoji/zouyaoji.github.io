@@ -1,5 +1,5 @@
 # html lang
-language: zh
+language: zh-Hans
 
 # main menu navigation
 menu:
@@ -18,7 +18,7 @@ pwa:
 favicon: /favicon.ico
 
 # highlight
-highlight_theme: default
+highlight_theme: pale night
 
 # fireworks
 fireworks: true
@@ -64,7 +64,7 @@ cdn:
 
 # Post info settings
 
-avatar: https://ws1.sinaimg.cn/large/8700af19ly1fm4iuz15lsj20ix0iw0u8
+avatar: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzpc7bz84j204z04zdfv
 
 top_img: https://ws1.sinaimg.cn/large/8700af19ly1fnp7q2phkzj21hc0xc0yl 
 
@@ -91,15 +91,19 @@ post_copyright:
 
 QR_code:
   - itemlist:
-      img: https://ws1.sinaimg.cn/large/8700af19ly1fjmba1eumhj20jz0jzq4b.jpg
+      img: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzp5m1n6ij20be0bedgj
       text: 支付宝打赏
   - itemlist:
-      img: https://ws1.sinaimg.cn/large/8700af19ly1fjmbbmp7uwj20jm0jmt9a.jpg
+      img: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzp1fy7ewj20be0bewew
       text: 微信打赏
 
 addThis:
-  enable: true
+  enable: false
   pubid: ra-5994f8f0fea9a5f4
+
+sharejs:
+  enable: true
+  disabled_sites: google,facebook
 
 disqus:
   enable: false
@@ -109,8 +113,7 @@ disqus:
 gitment:
   enable: true
   owner: zouyaoji
-  admin: zouyaoji
-  repo: img_gitalk
+  repo: github.com/zouyaoji/img_gitment
   client_id: 1ae44aed6a14ec18b48b 
   client_secret: cc37c66926a5af47204655fb665081b989c003b5
 
@@ -119,7 +122,7 @@ adv:
   info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="100%" height="90"></a>
 
 
-since: 2015
+since: 2017
 
 ICP:
   enable: false
@@ -143,6 +146,10 @@ busuanzi:
   page_pv_footer: 
 
 # Sidebar Settings
+
+mathjax:
+  enable: true # or false
+  cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
 
 # Links
 links_title: Links
