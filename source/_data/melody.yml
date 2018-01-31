@@ -24,8 +24,8 @@ highlight_theme: default
 fireworks: true
 
 # Analysis
-baidu_analytics: 19a7ebdbb87f2403773c7ab0cae16d21
-google_analytics: UA-105869658-1
+baidu_analytics: 5262fb9059eb669db3504aace540f0c4
+google_analytics: UA-113302031-1
 
 # algolia_search
 algolia_search:
