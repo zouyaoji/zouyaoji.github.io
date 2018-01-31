@@ -3,68 +3,64 @@ date: 2018-01-31 09:16:38
 type: "about"
 ---
 
-17年2月开始自学前端。
+# 关于我
 
-不敢说有什么特别擅长的，涉猎广泛，喜欢尝试新技术。
+## 简介
 
-Linux基本操作、Vim较熟练、Sublime熟悉、VSCode熟悉、Git熟悉。
+&#160; &#160; &#160; &#160;小小GISer一名，2014年毕业于成都理工大学。目前在成都工作，就职于超图软件。
 
-学习&项目经历：
+&#160; &#160; &#160; &#160;不敢说有什么特别擅长的，涉猎广泛，喜欢尝试新技术。
 
-### 2017年
+&#160; &#160; &#160; &#160;C#熟悉、Oracle熟悉、VSCode熟悉、Git熟悉、会Linux基本操作。
 
-- **2017.1** [Vue-Koa-Demo](https://github.com/Molunerfinn/vue-koa-demo) 【Vue2+Koa1+MySQL】
+&#160; &#160; &#160; &#160;工作三年，帮助我提升了MFC、WINFROM、WPF程序编写能力、数据库操作能力，也熟悉了一些界面库，BCG、DevExpress等，项目经验更是从无到有，做过产品开发、做过售前支持、做过项目实施、做过售后支持。
 
-- **2017.03~2017.05.07** 开坑学习Three.js，完成了一个简单的[机械装置展示平台](https://github.com/Molunerfinn/Gear-system)（我的本科毕设）【Three.js+dat.gui】
+&#160; &#160; &#160; &#160;17年2月开始自学前端，到目前为止，除了能支撑公司的前端产品之外，并无建树。但最近对前端的求知欲无比强烈，趁此机会开博客总结学习情况，分享所得。
 
-- **2017.05.23~2017.07.15** 基于vue2+koa2重构了[福建北邮人服务系统](https://fj.teamsz.xyz/)，这是我自己的项目。开始引入eslint（以前嫌麻烦233），以后的项目也一并引入。期间在手写一些常用Vue组件的时候学习了不少东西，写了一篇[Vue组件的三种调用方式](https://molunerfinn.com/vue-components/)【Vue2+Koa2】
+目前接触学习了：
 
-- **2017.05.26** 为了上面那个项目简单做了一个基于`stylus`的栅格系统css——[Melody.css](https://github.com/Molunerfinn/Melody.css)，用来快速做响应式开发。【stylus】
+- JavaScript、CSS基础
+- jquery、bootstrap
+- nodejs、webpack、eslint
+- es6、vue、element ui、quasar framework
+- travis-ci、Cordova、Electron
 
-- **2017.06.07** 协助解决实验室Vue项目里webpack的Hot Reload速度太慢的问题，做了个webpack的开发模式的插件[webpack-dev-compile-optimize](https://github.com/Molunerfinn/webpack-dev-compile-optimize)提升热重载速度（只在自己内部项目测试过），同期总结了一篇基于[vue-cli项目的webpack构建优化文章](https://molunerfinn.com/Webpack-Optimize/)。【webpack】
+还要学习的有很多、还需努力。
 
-- **2017.07.07** 博客开启持久化构建，依赖于github-page，不过加上了https以及进入了HSTS列表。第一次接触了[Travis-CI](https://travis-ci.org/)，发表了一篇[经验文](https://molunerfinn.com/hexo-travisci-https/)。【Travis-CI】
+## 工作经历：
 
-- **2017.08.09** 开坑[hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody)，写一个送给我妹子的hexo主题，效果见[我博客](https://molunerfinn.com)即是。【hexo hexo-theme】
+- **2017-2018** 超图软件。超图三维平台各产品支撑。
+  - 参与支撑SuperMap iDesktop。
+  - 参与支撑SuperMap iObject .NET。
+  - 参与支撑SuperMap iClent3D For Plugin。
+  - 参与支撑SuperMap iClent3D For WebGL。
+  - 参与支撑SuperMap技术问答社区。
+  - 参与SuperMap技术资源中心示范程序编写。
+  - 参与超图大厦一楼展厅触摸屏演示程序（WPF）编写，三维规划设计、三维标绘程序等。
+  - 参与2017年超图用户大会演示程序编写，VR体验程序开发。
+  - 国家会议中心GIS软件技术大会技术支撑。
 
-- **2017.10.09** 写每周电影推荐的时候因为嫌弃获取电影信息步骤繁杂，于是改造了一下早期写的node小爬虫[dbmovie-spider](https://github.com/Molunerfinn/dbmovie-spider)支持读取命令行信息了。【node】
+- **2016-2017** 超图软件。参与超图不动产项目实施工作。带领山东临沂市不动产项目实施，后转向超图平台三维产品支持工作。
+  - 临沂市沂水县不动产数据抽取工具，从比特房产数据库把存量房数据抽取到超图不动产数据库，并维护关系。
+  - 临沂市沂水县宅基地数据抽取工具，从浙大万维数据库把宗地、自然幢数据抽取到超图不动产数据库。
+  - 临沂市沂水县权籍调查系统插件，可把房产测绘成果导入不动产库。
+  - 超图三维平台产品学习&支撑。SuperMap iDesktop、SuperMap iObject .NET。
+  - 全国倾斜摄影技术联盟百城巡展技术支撑
+  - 中国测绘地理信息学会2016年学术年会技术支撑。
 
-- **2017.10.28** 开始[练习算法](https://github.com/Molunerfinn/FE-Learning)，并借机学习TypeScript和前端测试（采用了Jest）。 不过后来一直有其他事压着，没有持续，等考完试要继续。【TypeScript Jest】
+- **2015-2016** 超图软件。参与超图房产项目网签系统开发和实施工作，不动产项目学习。
+  - 负责衡水市11个县的网签、资金监管系统定制开发、部署、培训工作。
+  - 桂林市数据对比工具。
+  - 泸州市不动产项目学习，不动产权籍调查系统、业务系统、业务数据库维护等工作。
 
-- **2017.11.02** 开坑[vue-koa-demo](https://github.com/Molunerfinn/vue-koa-demo)项目的前端测试。同期写了一篇[Jest 全栈测试的经验](https://molunerfinn.com/Use-Jest-To-Test-Vue-Koa/)博客。【Jest】
+- **2014-2015** 超图软件。参与超图房产项目测绘系统SuperMap Floor（C++）开发。
+  - 承担了SuperMap Floor数据升级工作。负责吉林市和龙泉市数据升级。
+  - 参与了SuperMap Floor重构工作，图形绘制编辑、水晶报表输出、分摊模型优化、区域定制、BUG修改、产品友好性优化等。
+  - 参与了SuperMap Floor需求调研、客户现场培训。
+  - 参与了SuperMap Floor测绘项目现场技术支撑。作为售前or售后支撑了玉林、吉林、丽水龙泉、抚州、桂林、芜湖、沧州、濮阳、南昌等房管局测绘队或者当地房产测绘公司。
 
-- **2017.11.18** 开坑[PicGo](https://github.com/Molunerfinn/PicGo)，学习electron的基本开发流程，边写边学。最终完成了一个我现在写博客贴图片时很方便的工具。并于12月中发布正式版，还上了少数派首页推荐。【electron】
+## 教育经历：
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fmvr6uah8rj21z20vk7wh)
+- **2010-2014** 成都理工大学地球科学学院地理信息系统专业。主要学习了3S技术、地图学、地质学、遥感测量、计算机编程(C++、C#)等专业课程。获得2次国家励志奖学金，1次校级奖学金，校级优秀毕业生。
 
-- **2017.11.30** 抽空把vue-koa-demo的[ssr](https://github.com/Molunerfinn/vue-koa-demo/tree/ssr)版本做了一下。踩了一些ssr的坑。【Vue-SSR】
-
-### 2016年
-
-- **2016.2.22** 北邮人十大[爬虫](https://github.com/Molunerfinn/Nodejs-ByrTopTen) 【Nodejs+Superagent+Mongodb】
-
-- **2016.3.20** 北邮人十大[日报](http://topten.piegg.cn/) 【Nodejs+Express+Mongodb】
-
-- **2016.5.30** 福建北邮人服务[系统](https://fj.teamsz.xyz/) 【Nodejs+Koa+Vue1】
-
-- **2016.6** 北邮人论坛Markdown显示[实现](https://github.com/Molunerfinn/bbs-markdown) 【Marked.js+Highlight.js】
-
-- **2016.6** 北邮人论坛快速[注册页](https://github.com/Molunerfinn/vue-mobile-learning-demo) 【Vue1 + Swiper.js】
-
-- **2016.10** [markline.js](https://github.com/Molunerfinn/markline.js) 【Canvas】
-
-- **2016.11 ~ 2017.2** 菠萝车族后台系统 【Vue2+Koa1+MySQL】
-
-- **2016.12** Element-ui主题语法[解析](https://github.com/Molunerfinn/theme-default) 【Nodejs + CSS4】
-
-### 2015年
-
-- **2015.7 ~ 2015.8** 北邮IPTV新版页面开发。（维护至今）【jQuery+Bootstrap+CSS3+Gulp】
-
-- **2015.10** 北邮60周年校庆直播页，开始学习Nodejs 【HTML+CSS3】
-
-- **2015.12** 开始接触Vue，学习Express，Mongodb
-
-还需努力。
-
-![](https://ws1.sinaimg.cn/large/7a5fa15ely1fnznb9sovlj228o1jlnpd)
+![ideas](https://ws1.sinaimg.cn/large/7a5fa15ely1fnznb9sovlj228o1jlnpd)
