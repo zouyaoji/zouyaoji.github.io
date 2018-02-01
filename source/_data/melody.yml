@@ -120,8 +120,8 @@ gitment:
   # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: '1ae44aed6a14ec18b48b'    #生成的clientID
-  clientSecret: 'cc37c66926a5af47204655fb665081b989c003b5'   #同上
+  clientID: 'b515ddd1e2b51011d674'    #生成的clientID
+  clientSecret: '7604756fde9c3ad2ba8ba0307c1e5ab112854abb'   #同上
   repo: img_gitalk    #仓库名称
   owner: zouyaoji    #github用户名
   admin: zouyaoji
