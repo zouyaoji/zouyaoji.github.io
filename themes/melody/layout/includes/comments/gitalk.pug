@@ -1,5 +1,7 @@
 if theme.gitalk && theme.gitalk.enable
   #gitalk-container
+  var path = window.location.pathname
+  path = path === '/' ? path : path.substring(0, path.length - 1);
   script.
     var gitalk = new Gitalk({
       clientID: '!{theme.gitalk.clientID}',
@@ -7,6 +9,7 @@ if theme.gitalk && theme.gitalk.enable
       repo: '!{theme.gitalk.repo}',
       owner: '!{theme.gitalk.owner}',
       admin: '!{theme.gitalk.admin}'
-      //- id: window.location.pathname
+      id: window.location.pathname
     })
+    console.logpath(path)
     gitalk.render('gitalk-container')
