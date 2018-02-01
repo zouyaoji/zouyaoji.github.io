@@ -1,0 +1,12 @@
+if theme.gitalk && theme.gitalk.enable
+  #gitalk-container
+  script.
+    var gitalk = new Gitalk({
+      client_id: '!{theme.gitalk.client_id}',
+      client_secret: '!{theme.gitalk.client_secret}',
+      repo: '!{theme.gitalk.repo}',
+      owner: '!{theme.gitalk.owner}',
+      admin: '!{theme.gitalk.admin}',
+      id: window.location.pathname
+    })
+    gitalk.render('gitalk-container')
