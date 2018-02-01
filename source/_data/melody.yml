@@ -119,9 +119,9 @@ gitment:
 
 gitalk:
   enable: true
-  clientID: b515ddd1e2b51011d674
-  clientSecret: b91634c6983261314f682076677c22ed550880a2
-  repo: img_gitalk
+  clientID: ec55af22a64b9373e92b
+  clientSecret: b096a409723c209bb38658af23af3414be36bad9
+  repo: github.com/zouyaoji/gitalkBlog
   owner: zouyaoji
   admin: zouyaoji
 
@@ -155,15 +155,15 @@ busuanzi:
 
 # Sidebar Settings
 
-mathjax:
-  enable: true # or false
-  cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
+# mathjax:
+#   enable: true # or false
+#   cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
 
 # Links
 links_title: Links
 links:
   zouyaoji: https://zouyaoji.top
-  Elody: https://elody-07.github.io
+  # Elody: https://elody-07.github.io
 
 # Version
 version: 1.4
