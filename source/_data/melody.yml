@@ -116,11 +116,11 @@ gitment:
   repo: github.com/zouyaoji/img_gitment
   client_id: 1ae44aed6a14ec18b48b 
   client_secret: cc37c66926a5af47204655fb665081b989c003b5
-  
+
 gitalk:
   enable: true
   clientID: b515ddd1e2b51011d674
-  clientSecret: 7604756fde9c3ad2ba8ba0307c1e5ab112854abb
+  clientSecret: b91634c6983261314f682076677c22ed550880a2
   repo: img_gitalk
   owner: zouyaoji
   admin: zouyaoji
