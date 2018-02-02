@@ -20,11 +20,11 @@ date: 2018-02-01 19:30:00
 
 Visual Studio Code刚出来的时候我就开始使用了，理由很简单：
 
-- 开源、开源、跨平台
+- 免费、开源、跨平台
 - 微软出品、实力保证
 
 微软对于VSCode的定位如下图，位于编辑器与IDE之间，像是披着编辑器外衣的IDE，更像是披着IDE外衣的编辑器。
-![VsCode定位](https://ws1.sinaimg.cn/large/7a5fa15ely1fo1weqwiqxj20jg0avgnr)
+![VSCode定位](https://ws1.sinaimg.cn/large/7a5fa15ely1fo1weqwiqxj20jg0avgnr)
 
 在这儿我要赞一波Visual Studio Code，我认为它是最好用的开源文本编辑器，在保持其性能的基础上集成了很多IDE功能，可以说是微软良心出品，浓浓的微软情怀。[点我看更多VSCode评价](https://www.zhihu.com/question/29984607)。
 
@@ -34,7 +34,7 @@ Visual Studio Code之所以体验很好，其中很重要的一点原因是其�
 
 ## 文件图标&颜色主题插件扩展
 
-“人靠衣装马靠鞍，狗配铃铛跑的欢”，VsCode也是，本身颜值一般，需要扩展主题改造，我这儿推荐几个我个人比较喜欢的文件图标和颜色主题插件，这个没啥好说的，直接上图。
+“人靠衣装马靠鞍，狗配铃铛跑的欢”，VSCode也是，本身颜值一般，需要扩展主题改造，我这儿推荐几个我个人比较喜欢的文件图标和颜色主题插件，这个没啥好说的，直接上图。
 
 ### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
@@ -239,7 +239,7 @@ All you need to write Markdown (keyboard shortcuts, table of contents, auto prev
 
 ### [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
-- C/C++ IntelliSense, debugging, and code browsing. 可以让VSCode智能感知、调试、运行C++代码。
+- C/C++ IntelliSense, debugging, and code browsing. 可以让VSCode智能提示、调试、运行C++代码。
 
 ### [C/C++ Snippets](https://marketplace.visualstudio.com/items?itemName=hars.CppSnippets)
 
@@ -255,7 +255,7 @@ All you need to write Markdown (keyboard shortcuts, table of contents, auto prev
 
 ### [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-- Linting, Debugging (multi-threaded, remote), Intellisense, code formatting, refactoring, unit tests, snippets, and more. VSCode Python插件，支持python语法检查、调试（多线程调试、远程调试）、只能感知、格式化py文件、重构、单元测试、python代码片段等。
+- Linting, Debugging (multi-threaded, remote), Intellisense, code formatting, refactoring, unit tests, snippets, and more. VSCode Python插件，支持python语法检查、调试（多线程调试、远程调试）、智能提示、格式化py文件、重构、单元测试、python代码片段等。
 
 ### [Go](https://marketplace.visualstudio.com/items?itemName=lukehoban.Go)
 
