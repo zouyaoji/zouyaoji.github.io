@@ -82,12 +82,6 @@ Visual Studio Code之所以体验很好，其中很重要的一点原因是其�
 
 VSCode插件扩展很多，但常用的也就那么些个，可以按照自己的代码风格习惯+自己的技术栈安一些插件。比如我前端对NPM、GitHub、Vue接触比较多，我自然就关于方面的比较多，然后是代码规范的插件、代码美化的插件、调试的插件等。
 
-### [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-
-- Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist. 首推Settings Sync，这个插件的功能是帮你同步VsCode插件的，只要你上传了你的插件配置，家里和办公区电脑，重装系统后，都能同步，而且轻松就能分享你安装的插件给他人。可以理解为你VSCode的插件和设置，都帮你云备份了，你随时可以更新、下载，是通过GitHub的Personal Access Token备份的，如果没有的话，要申请一个[GitHub](https://github.com/)号了。
-
-![Settings Sync](https://ws1.sinaimg.cn/large/7a5fa15ely1fo221x1em6g20hs0991l0)
-
 ### [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
 - Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does. 为你的HTML标签自动添加结束标签。
@@ -199,6 +193,12 @@ VSCode插件扩展很多，但常用的也就那么些个，可以按照自己�
 ![Vue 2 Snippet2](https://ws1.sinaimg.cn/large/7a5fa15ely1fo249fz9f5j20do08dt8k)
 
 ## 通用工具插件扩展
+
+### [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+- Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist. 重点推荐Settings Sync，这个插件的功能是帮你同步VsCode插件的，只要你上传了你的插件配置，家里和办公区电脑，重装系统后，都能同步，而且轻松就能分享你安装的插件给他人。可以理解为你VSCode的插件和设置，都帮你云备份了，你随时可以更新、下载，是通过GitHub的Personal Access Token备份的，如果没有的话，是时候申请一个[GitHub](https://github.com/)号了。
+
+![Settings Sync](https://ws1.sinaimg.cn/large/7a5fa15ely1fo221x1em6g20hs0991l0)
 
 ### [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
