@@ -265,7 +265,7 @@ All you need to write Markdown (keyboard shortcuts, table of contents, auto prev
 
 ### [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 
-- anguage Support for Java(TM) for Visual Studio Code provided by Red Hat. 让VSCode只Java语法。
+- Language Support for Java(TM) for Visual Studio Code provided by Red Hat. 让VSCode支持Java语法。
 
 以上就是我的全部分享，插图来源于[VSCode官网](https://marketplace.visualstudio.com/vscode)。如果大家有发现什么好用的插件，欢迎分享出来。
 
