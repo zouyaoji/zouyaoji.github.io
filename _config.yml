@@ -71,6 +71,10 @@ feed:
   path: atom.xml
   limit: 20
 
+search:
+  path: search.xml
+  field: post
+
 # algolia: 
 #   appId: "${ALGOLIA_APP_ID}"
 #   apiKey: "${ALGOLIA_API_KEY}"
