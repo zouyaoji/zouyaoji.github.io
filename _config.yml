@@ -75,7 +75,7 @@ algolia:
   appId: "${ALGOLIA_APP_ID}"
   apiKey: "${ALGOLIA_API_KEY}"
   adminApiKey: "${ALGOLIA_ADMIN_API_KEY}"
-  indexName: "${ALGOLIA_INDEX_NAME}"
+  indexName: "zouyaoji's Blog"
   chunkSize: 5000
   fields:
     - title
