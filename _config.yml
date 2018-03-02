@@ -71,21 +71,21 @@ feed:
   path: atom.xml
   limit: 20
 
-algolia: 
-  appId: "${ALGOLIA_APP_ID}"
-  apiKey: "${ALGOLIA_API_KEY}"
-  adminApiKey: "${ALGOLIA_ADMIN_API_KEY}"
-  indexName: "zouyaoji's Blog"
-  chunkSize: 5000
-  fields:
-    - title
-    - tags
-    - categories
-    - excerpt:strip
-    - content:strip
-    - slug
-    - permalink
-    - path
+# algolia: 
+#   appId: "${ALGOLIA_APP_ID}"
+#   apiKey: "${ALGOLIA_API_KEY}"
+#   adminApiKey: "${ALGOLIA_ADMIN_API_KEY}"
+#   indexName: "zouyaoji's Blog"
+#   chunkSize: 5000
+#   fields:
+#     - title
+#     - tags
+#     - categories
+#     - excerpt:strip
+#     - content:strip
+#     - slug
+#     - permalink
+#     - path
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
