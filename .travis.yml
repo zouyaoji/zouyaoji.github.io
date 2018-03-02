@@ -14,10 +14,7 @@ before_script:
  # - npm install -g gulp
 
 script:
-  - hexo g
-# script:
-#   - hexo clean && hexo algolia && hexo g
-
+  - hexo clean && hexo algolia && hexo g
 
 after_script:
   - cd ./public
