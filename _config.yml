@@ -76,7 +76,7 @@ algolia:
   apiKey: "${ALGOLIA_API_KEY}"
   adminApiKey: "${ALGOLIA_ADMIN_API_KEY}"
   indexName: "${ALGOLIA_INDEX_NAME}"
-  chunkSize: 5000
+  chunkSize: 100
   fields:
     - title
     - tags
