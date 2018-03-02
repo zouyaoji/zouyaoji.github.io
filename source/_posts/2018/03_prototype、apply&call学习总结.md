@@ -225,23 +225,3 @@ var person = {
 
 person.describe() // "姓名：张三"
 ```
-
-如果对象的方法里面包含`this`，`this`的指向就是方法运行时所在的对象。该方法赋值给另一个对象，就会改变this的指向。
-
-``` JavaScript
-function f() {
-  return '姓名：'+ this.name;
-}
-var A = {
-  name: '张三',
-  describe: f
-}
-var B = {
-  name: '李四',
-  describe: f
-}
-A.describe() // "姓名：张三"
-B.describe() // "姓名：李四"
-```
-
-上面代码中，函数f内部使用了`this`关键字，随着`f`所在的对象不同，`this`的指向也不同。
