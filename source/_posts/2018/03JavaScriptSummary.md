@@ -1,6 +1,6 @@
-# JavaScript学习总结
+#  prototype、apply&call学习总结
 
-title: JavaScript学习总结
+title: prototype、apply&call学习总结
 tags:
 
 - 学习
@@ -16,9 +16,9 @@ date: 2018-02-27 19:30:00
 
 ## 前言
 
-前端学习过程中，时常会看到apply、call以及prototype的例子，总是似懂非懂，模棱两可，有时候要半天才明白怎么回事，也不知道怎么应用到实际工作中。开贴总结学习一下，即便是以后忘记了再来阅读重拾一下，同时希望能帮助到有同样困惑的前端入门者。
+前端学习过程中，时常会看到 `apply` `、call` 以及 `prototype` 的例子，总是似懂非懂，模棱两可，有时候要半天才明白怎么回事，也不知道怎么应用到实际工作中。开贴总结学习一下，即便是以后忘记了再来阅读重拾一下，同时希望能帮助到有同样困惑的前端入门者。
 
-要想彻底弄清楚\_proto_和prototype、call和apply的存在，首先要搞明白JavaScript面向对象编程。
+要想彻底弄清楚 `__proto__` 和 `prototype` 、`call` 和 `apply `的存在，首先要搞明白JavaScript面向对象编程。
 
 <!-- more -->
 
@@ -185,7 +185,7 @@ zhangsan instanceof Person // true
 - 借助中间函数F实现原型链继承，最好通过封装的inherits函数完成。
 - 继续在新的构造函数的原型上定义新方法。
 
-#### __proto__和prototype区别与联系
+#### __proto__&prototype对比
 
 经过从上面内容的学习，可以总结出二者区别：
 
