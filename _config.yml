@@ -72,10 +72,10 @@ feed:
   limit: 20
 
 algolia: 
-  appId: "${ALGOLIA_APP_ID}"
-  apiKey: "${ALGOLIA_API_KEY}"
-  adminApiKey: "${ALGOLIA_ADMIN_API_KEY}"
-  indexName: "${ALGOLIA_INDEX_NAME}"
+  appId: ${ALGOLIA_APP_ID}
+  apiKey: ${ALGOLIA_API_KEY}
+  adminApiKey: ${ALGOLIA_ADMIN_API_KEY}
+  indexName: ${ALGOLIA_INDEX_NAME}
   chunkSize: 5000
   fields:
     - title
