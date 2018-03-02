@@ -1,6 +1,6 @@
-# prototype、apply&call学习总结
+# __proto__和prototype、call和apply学习总结
 
-title: prototype、apply&call学习总结
+title: __proto__和prototype、call和apply学习总结
 tags:
 
 - 学习
@@ -16,15 +16,21 @@ date: 2018-02-27 19:30:00
 
 ## 前言
 
-前端学习过程中，时常会看到 `apply` `、call` 以及 `prototype` 的例子，有时候要半天才明白怎么回事，也不知道怎么应用到实际工作中。开贴总结学习一下，即便是以后忘记了再来阅读重拾一下。同时希望能帮助到有同样困惑的前端入门者。
+前端学习过程中，时常会看到apply、call以及prototype的例子，总是似懂非懂，模棱两可，有时候要半天才明白怎么回事，也不知道怎么应用到实际工作中。开贴总结学习一下，即便是以后忘记了再来阅读重拾一下，同时希望能帮助到有同样困惑的前端入门者。
+
+要想彻底弄清楚__proto__和prototype、call和apply的存在，首先要搞明白JavaScript面向对象编程。
 
 <!-- more -->
 
 ## JavaScript面向对象编程
 
+### 对象
+
 面向对象编程（Object Oriented Programming，缩写为 OOP）是目前主流的编程范式。它将真实世界各种复杂的关系，抽象为一个个对象，然后由对象之间的分工与合作，完成对真实世界的模拟。
 
-“对象”（object）到底是什么？从两个层次来理解。
+每一个对象都是功能中心，具有明确分工，可以完成接受信息、处理数据、发出信息等任务。对象可以复用，通过继承机制还可以定制。因此，面向对象编程具有灵活、代码可复用、高度模块化等特点，容易维护和开发，比起由一系列函数或指令组成的传统的过程式编程（procedural programming），更适合多人合作的大型软件项目。
+
+那么，“对象”（object）到底是什么？我们从两个层次来理解。
 
 （1）对象是单个实物的抽象。
 
@@ -77,9 +83,11 @@ var Person = {
     console.log('Hello, My name is ' + this.name + '!')
   }
 }
+
 var zhangsan = {
   name: 'zhangsan'
 }
+
 zhangsan.__proto__ = Person
 zhangsan.hello() // Hello, My name is zhangsan!
 ```
@@ -92,6 +100,7 @@ var Bird = {
         console.log(this.name + ' is flying...')
     }
 }
+
 zhangsan.__proto__ = Bird
 zhangsan.fly() // zhangsan is flying...
 ```
@@ -127,9 +136,11 @@ Person.prototype.hello = function () {
 var Person = function (name) {
   this.name = name || 'Unnamed'
 }
+
 Person.prototype.hello = function () {
   console.log('Hello, My name is ' + this.name + '!')
 }
+
 function Chengxuyuan(props) {
     Person.call(this, props.name)
     this.language = props.language
@@ -137,20 +148,25 @@ function Chengxuyuan(props) {
       console.log(this.name + ' can do ' + this.language + ' jobs')
     }
 }
+
 function inherits(Child, Parent) {
   var F = function () {}
   F.prototype = Parent.prototype
   Child.prototype = new F()
   Child.prototype.constructor = Child
 }
+
 inherits(Chengxuyuan, Person)
+
 var zhangsan = new Chengxuyuan({
   name:'zhangsan',
   language: 'JavaScript'
 })
+
 Chengxuyuan.prototype.getName = function () {
     return this.name
 }
+
 zhangsan.getName() // "zhangsan"
 zhangsan.hello() // "Hello, My name is zhangsan!"
 zhangsan.__proto__ === Chengxuyuan.prototype // true
@@ -166,7 +182,7 @@ zhangsan instanceof Person // true
 - 借助中间函数F实现原型链继承，最好通过封装的inherits函数完成。
 - 继续在新的构造函数的原型上定义新方法。
 
-#### __proto__&prototype对比
+#### __proto__和prototype区别与联系
 
 经过从上面内容的学习，可以总结出二者区别：
 
@@ -193,7 +209,7 @@ zhangsan instanceof Person // true
 this === window // true
 
 function f() {
-  console.log(this === window);
+  console.log(this === window)
 }
 f() // true
 ```
@@ -230,21 +246,26 @@ person.describe() // "姓名：张三"
 
 ``` JavaScript
 function f() {
-  return '姓名：'+ this.name;
+  return '姓名：'+ this.name
 }
+
 var A = {
   name: '张三',
   describe: f
 }
+
 var B = {
   name: '李四',
   describe: f
 }
+
 A.describe() // "姓名：张三"
 B.describe() // "姓名：李四"
 ```
 
 上面代码中，函数f内部使用了`this`关键字，随着`f`所在的对象不同，`this`的指向也不同。
+
+只要函数被赋给另一个变量，this的指向就变了。
 
 #### call和apply的区别与联系
 
@@ -259,6 +280,7 @@ Cat.prototype={
     console.log("I love "+this.food)
   }
 }
+
 var blackCat = new Cat()
 blackCat.say() // I love fish
 ```
@@ -274,15 +296,16 @@ blackCat.say.apply(whiteDog) // I love bone
 上面代码中，可以看出 `call` 和 `apply` 是为了动态改变 `this` 而出现的，当一个 `object` 没有某个方法，但是其他的有，我们可以借助 `call` 或 `apply` 用其它对象的方法来操作。
 
 - 二者联系
-1. 二者的作用完全一样，均可改变JavaScript函数体内部`this`的指向。
+  - 二者的作用完全一样，均可改变JavaScript函数体内部`this`的指向。
 - 二者区别
-1. 接受参数的方式不太一样。
+  - 接受参数的方式不太一样。
 
 ``` JavaScript
 var Person = function (name, age) {
   this.name = name || 'Unnamed'
   this.age = age || 0
 }
+
 Person.prototype.hello = function () {
   console.log('Hello, My name is ' + this.name + '!')
 }
@@ -314,7 +337,7 @@ The End!
 
 参考资料：
 
-[如何理解和熟练运用js中的call及apply？](https://www.zhihu.com/question/20289071)
+ [如何理解和熟练运用js中的call及apply？](https://www.zhihu.com/question/20289071)
 
 [js中__proto__和prototype的区别和关系？](https://www.zhihu.com/question/34183746)
 
