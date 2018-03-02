@@ -72,11 +72,11 @@ feed:
   limit: 20
 
 algolia: 
-  appId: "R9D8PZPYHE"
-  apiKey: "12a9c23e72b1c814750329afa373a169"
-  adminApiKey: "87f67b521a61d0c2f3b5d34046a2481d"
-  indexName: "zouyaoji's Blog"
-  chunkSize: 1000
+  appId: "${ALGOLIA_APP_ID}"
+  apiKey: "${ALGOLIA_API_KEY}"
+  adminApiKey: "${ALGOLIA_ADMIN_API_KEY}"
+  indexName: "${ALGOLIA_INDEX_NAME}"
+  chunkSize: 5000
   fields:
     - title
     - tags
