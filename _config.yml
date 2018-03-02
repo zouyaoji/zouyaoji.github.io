@@ -75,7 +75,7 @@ algolia:
   appId: "TTWU466R47"
   apiKey: "19afd3854efb0aba650144dbc921191b"
   adminApiKey: "68244251128e53bb5890e8337d4be9f6"
-  indexName: "zouyaoji"
+  indexName: "indexName"
   chunkSize: 5000
   fields:
     - title
