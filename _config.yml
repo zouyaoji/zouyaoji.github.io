@@ -76,7 +76,7 @@ algolia:
   apiKey: "12a9c23e72b1c814750329afa373a169"
   adminApiKey: "87f67b521a61d0c2f3b5d34046a2481d"
   indexName: "zouyaoji's Blog"
-  chunkSize: 2500
+  chunkSize: 1000
   fields:
     - title
     - tags
