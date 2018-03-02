@@ -76,7 +76,7 @@ algolia:
   apiKey: "19afd3854efb0aba650144dbc921191b"
   adminApiKey: "68244251128e53bb5890e8337d4be9f6"
   indexName: "indexName"
-  chunkSize: 5000
+  chunkSize: 500
   fields:
     - title
     - tags
