@@ -72,10 +72,10 @@ feed:
   limit: 20
 
 algolia: 
-  appId: "BGLU1ICJFH"
-  apiKey: "de05646e7bb736b8478e6854743e5963"
-  adminApiKey: "32f0096d77eb438d15625b2509a11984"
-  indexName: "mofinn"
+  appId: "TTWU466R47"
+  apiKey: "19afd3854efb0aba650144dbc921191b"
+  adminApiKey: "68244251128e53bb5890e8337d4be9f6"
+  indexName: "zouyaoji"
   chunkSize: 5000
   fields:
     - title
