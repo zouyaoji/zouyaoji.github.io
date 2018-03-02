@@ -72,10 +72,10 @@ feed:
   limit: 20
 
 algolia: 
-  appId: ${ALGOLIA_APP_ID}
-  apiKey: ${ALGOLIA_API_KEY}
-  adminApiKey: ${ALGOLIA_ADMIN_API_KEY}
-  indexName: ${ALGOLIA_INDEX_NAME}
+  appId: "TTWU466R47"
+  apiKey: "19afd3854efb0aba650144dbc921191b"
+  adminApiKey: "68244251128e53bb5890e8337d4be9f6"
+  indexName: "zouyaoji"
   chunkSize: 2000
   fields:
     - title
