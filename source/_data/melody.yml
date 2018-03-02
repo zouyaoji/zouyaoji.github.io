@@ -18,7 +18,7 @@ pwa:
 favicon: /favicon.ico
 
 # highlight
-highlight_theme: pale night
+highlight_theme: darker
 
 # fireworks
 fireworks: true
@@ -29,7 +29,7 @@ google_analytics: UA-113302031-1
 
 # algolia_search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
