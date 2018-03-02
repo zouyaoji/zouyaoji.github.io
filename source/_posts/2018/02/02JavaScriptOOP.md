@@ -1,4 +1,4 @@
-# \__proto__和prototype、call和apply学习总结
+# \__proto__&prototype, call&apply总结
 
 title: property、call和apply学习总结
 tags:
