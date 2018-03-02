@@ -27,7 +27,7 @@ fireworks: true
 baidu_analytics: 5262fb9059eb669db3504aace540f0c4
 google_analytics: UA-113302031-1
 
-algolia_search
+# algolia_search
 algolia_search:
   enable: true
   hits:
