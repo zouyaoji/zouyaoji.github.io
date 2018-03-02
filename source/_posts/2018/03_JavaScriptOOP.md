@@ -1,34 +1,24 @@
-# prototype、apply&call学习总结
+# JavaScript面向对象编程
 
 title: prototype、apply&call学习总结
 tags:
-
 - 学习
 - 总结
-
 categories:
-
 - 前端
-
 date: 2018-02-27 19:30:00
-
 ---
 
 ## 前言
 
 前端学习过程中，时常会看到 `apply` `、call` 以及 `prototype` 的例子，有时候要半天才明白怎么回事，也不知道怎么应用到实际工作中。开贴总结学习一下，即便是以后忘记了再来阅读重拾一下。同时希望能帮助到有同样困惑的前端入门者。
-
 <!-- more -->
 
-## JavaScript面向对象编程
-
-### 对象
+## 对象
 
 面向对象编程（Object Oriented Programming，缩写为 OOP）是目前主流的编程范式。它将真实世界各种复杂的关系，抽象为一个个对象，然后由对象之间的分工与合作，完成对真实世界的模拟。
 
-每一个对象都是功能中心，具有明确分工，可以完成接受信息、处理数据、发出信息等任务。对象可以复用，通过继承机制还可以定制。因此，面向对象编程具有灵活、代码可复用、高度模块化等特点，容易维护和开发，比起由一系列函数或指令组成的传统的过程式编程（procedural programming），更适合多人合作的大型软件项目。
-
-那么，“对象”（object）到底是什么？我们从两个层次来理解。
+“对象”（object）到底是什么？从两个层次来理解。
 
 （1）对象是单个实物的抽象。
 
@@ -62,9 +52,6 @@ Person.prototype === zhangsan.__proto__ // true
 - 函数体内部使用了this关键字，代表了所要生成的对象实例。
 - 生成对象的时候，必须使用new命令。
 
-新创建的`zhangsan`的原型链是
-> zhangsan -> Person.prototype -> Object.prototype -> null
-
 ### 原型对象
 
 JavaScript对每个创建的对象都会设置一个原型，指向它的原型对象（通过Function.prototype.bind方法构造出来的函数是个例外，它没有prototype属性）。方法（Function）是对象，方法的原型(Function.prototype)是对象。因此，它们都会具有对象共有的特点。即：对象具有属性__proto__，可称为**隐式原型**，一个对象的隐式原型指向构造该对象的构造函数的原型，这也保证了实例能够访问在构造函数原型中定义的属性和方法。
@@ -84,11 +71,9 @@ var Person = {
     console.log('Hello, My name is ' + this.name + '!')
   }
 }
-
 var zhangsan = {
   name: 'zhangsan'
 }
-
 zhangsan.__proto__ = Person
 zhangsan.hello() // Hello, My name is zhangsan!
 ```
@@ -98,10 +83,9 @@ zhangsan.hello() // Hello, My name is zhangsan!
 ``` JavaScript
 var Bird = {
     fly: function () {
-        console.log(this.name + ' is flying...');
+        console.log(this.name + ' is flying...')
     }
-};
-
+}
 zhangsan.__proto__ = Bird
 zhangsan.fly() // zhangsan is flying...
 ```
@@ -137,11 +121,9 @@ Person.prototype.hello = function () {
 var Person = function (name) {
   this.name = name || 'Unnamed'
 }
-
 Person.prototype.hello = function () {
   console.log('Hello, My name is ' + this.name + '!')
 }
-
 function Chengxuyuan(props) {
     Person.call(this, props.name)
     this.language = props.language
@@ -149,25 +131,20 @@ function Chengxuyuan(props) {
       console.log(this.name + ' can do ' + this.language + ' jobs')
     }
 }
-
 function inherits(Child, Parent) {
   var F = function () {}
   F.prototype = Parent.prototype
   Child.prototype = new F()
   Child.prototype.constructor = Child
 }
-
 inherits(Chengxuyuan, Person)
-
 var zhangsan = new Chengxuyuan({
   name:'zhangsan',
   language: 'JavaScript'
 })
-
 Chengxuyuan.prototype.getName = function () {
     return this.name
 }
-
 zhangsan.getName() // "zhangsan"
 zhangsan.hello() // "Hello, My name is zhangsan!"
 zhangsan.__proto__ === Chengxuyuan.prototype // true
@@ -249,24 +226,19 @@ person.describe() // "姓名：张三"
 function f() {
   return '姓名：'+ this.name;
 }
-
 var A = {
   name: '张三',
   describe: f
-};
-
+}
 var B = {
   name: '李四',
   describe: f
-};
-
+}
 A.describe() // "姓名：张三"
 B.describe() // "姓名：李四"
 ```
 
 上面代码中，函数f内部使用了`this`关键字，随着`f`所在的对象不同，`this`的指向也不同。
-
-只要函数被赋给另一个变量，this的指向就变了。
 
 #### call和apply的区别与联系
 
@@ -281,7 +253,6 @@ Cat.prototype={
     console.log("I love "+this.food)
   }
 }
-
 var blackCat = new Cat()
 blackCat.say() // I love fish
 ```
@@ -306,7 +277,6 @@ var Person = function (name, age) {
   this.name = name || 'Unnamed'
   this.age = age || 0
 }
-
 Person.prototype.hello = function () {
   console.log('Hello, My name is ' + this.name + '!')
 }
