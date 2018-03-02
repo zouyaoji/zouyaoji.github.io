@@ -1,6 +1,6 @@
-# __proto__&prototype, call&apply总结
+# JavaScript学习总结
 
-title: property、call和apply学习总结
+title: JavaScript学习总结
 tags:
 
 - 学习
