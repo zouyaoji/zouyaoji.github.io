@@ -1,5 +1,5 @@
 # html lang
-language: zh-Hans
+language: zh
 
 # main menu navigation
 menu:
@@ -18,7 +18,7 @@ pwa:
 favicon: /favicon.ico
 
 # highlight
-highlight_theme: darker
+highlight_theme: default
 
 # fireworks
 fireworks: true
@@ -36,12 +36,6 @@ algolia_search:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
-
-# local_search:
-#   enable: true # or false
-#   labels:
-#     input_placeholder: Search for Posts
-#     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 
 # stylesheets loaded in the <head>
 stylesheets:
