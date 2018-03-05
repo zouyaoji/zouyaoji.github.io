@@ -101,10 +101,6 @@ addThis:
   enable: true
   pubid: ra-5a7153ea5c832f98
 
-# sharejs:
-#   enable: true
-#   disabled_sites: google,facebook
-
 disqus:
   enable: false
   shortname: zouyaoji
@@ -154,10 +150,6 @@ busuanzi:
   page_pv_footer: 
 
 # Sidebar Settings
-
-# mathjax:
-#   enable: true # or false
-#   cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
 
 # Links
 links_title: Links
