@@ -28,7 +28,8 @@
     "hexo-renderer-swig": "^1.1.0",
     "hexo-console-optimize": "0.0.5",
     "hexo-server": "^0.1.2",
-    "hexo-wordcount": "^3.0.2"
+    "hexo-wordcount": "^3.0.2",
+    "graceful-fs": "4.1.11"
   },
   "devDependencies": {
     "hexo-generator-feed": "^1.1.0"

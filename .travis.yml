@@ -8,14 +8,13 @@ cache:
 
 # S: Build Lifecycle
 install:
-  - npm install -g graceful-fs
   - npm install
 
 before_script:
  - npm install -g gulp
 
 script:
- - hexo algolia
+ - hexo clean && hexo algolia && hexo g
 
 after_script:
   - cd ./public
