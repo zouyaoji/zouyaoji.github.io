@@ -73,7 +73,7 @@ feed:
   
 search:
   path: search.xml
-  field: all
+  field: post
 
 algolia: 
   chunkSize: 5000
