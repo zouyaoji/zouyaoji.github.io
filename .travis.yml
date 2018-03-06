@@ -8,6 +8,7 @@ cache:
 
 # S: Build Lifecycle
 install:
+  - npm install -g graceful-fs
   - npm install
 
 before_script:
