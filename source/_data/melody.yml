@@ -3,11 +3,11 @@ language: zh
 
 # main menu navigation
 menu:
-  Home: /
-  About: /about
-  Archives: /archives
-  Tags: /tags
-  Categories: /categories
+  主页: /
+  关于: /about
+  归档: /archives
+  标签: /tags
+  分类: /categories
 
 # PWA
 pwa:
@@ -115,14 +115,14 @@ disqus:
   count: true
 
 gitment:
-  enable: true
+  enable: false
   owner: zouyaoji
   repo: github.com/zouyaoji/gitalkBlog
   client_id: ec55af22a64b9373e92b 
   client_secret: b096a409723c209bb38658af23af3414be36bad9
 
 gitalk:
-  enable: false
+  enable: true
   clientID: ec55af22a64b9373e92b
   clientSecret: b096a409723c209bb38658af23af3414be36bad9
   repo: gitalkBlog
