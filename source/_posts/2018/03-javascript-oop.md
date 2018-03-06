@@ -1,6 +1,6 @@
-# JavaScript面向对象学编程总结
+# JavaScript面向对象编程总结
 
-title: JavaScript面向对象学编程总结
+title: JavaScript面向对象编程总结
 tags:
 
 - 学习

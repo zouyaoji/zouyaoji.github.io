@@ -76,6 +76,10 @@ search:
   field: post
 
 algolia: 
+  appId: "R9D8PZPYHE"
+  apiKey: "f0d99979eb2b11beb1c88a924283595f"
+  adminApiKey: "87f67b521a61d0c2f3b5d34046a2481d"
+  indexName: "zouyaoji's Blog"
   chunkSize: 5000
   fields:
     - title
