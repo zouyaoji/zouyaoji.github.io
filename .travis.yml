@@ -1,10 +1,13 @@
 language: node_js
-node_js: 7
+node_js: node
 
 # Travis-CI Caching
 cache:
   directories:
     - node_modules
+
+before_install:
+  - sudo apt-get install graceful-fs@4.1.11 -g
 
 # S: Build Lifecycle
 install:
