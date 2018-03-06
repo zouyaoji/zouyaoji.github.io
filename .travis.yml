@@ -7,7 +7,7 @@ cache:
     - node_modules
 
 before_install:
-  - sudo apt-get install graceful-fs@4.1.11 -g
+  - npm install graceful-fs@4.1.11 -g
 
 # S: Build Lifecycle
 install:
