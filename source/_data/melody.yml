@@ -37,6 +37,14 @@ algolia_search:
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
+# Local search
+# ---------------
+local_search:
+  enable: true
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
+
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/index.css
@@ -121,6 +129,12 @@ gitalk:
   owner: zouyaoji
   admin: zouyaoji
 
+# MathJax
+# ---------------
+mathjax:
+  enable: false
+  cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 adv:
   enable: false
   info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="100%" height="90"></a>
@@ -155,7 +169,7 @@ busuanzi:
 links_title: Links
 links:
   zouyaoji: https://zouyaoji.top
-  # Elody: https://elody-07.github.io
+  发现中国: https://www.ageeye.cn/
 
 # Version
 version: 1.4

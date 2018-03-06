@@ -70,6 +70,10 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+  
+search:
+  path: search.xml
+  field: post
 
 algolia: 
   chunkSize: 5000
