@@ -130,7 +130,7 @@ gitalk:
   admin: zouyaoji
 
 valine:
-  enable: false # if you want use valine,please set this value is ture
+  enable: ture # if you want use valine,please set this value is ture
   appId: 4e9HIF9qjBJFzOULfXgDxKWV-gzGzoHsz # leancloud application app id
   appKey: PIX5B5elsvLCiEktWhHXEtEz # leancloud application app key
   notify: true # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
