@@ -114,20 +114,20 @@ disqus:
   shortname: zouyaoji
   count: true
 
-# gitment:
-#   enable: false
-#   owner: zouyaoji
-#   repo: github.com/zouyaoji/img_gitment
-#   client_id: 1ae44aed6a14ec18b48b 
-#   client_secret: cc37c66926a5af47204655fb665081b989c003b5
+gitment:
+  enable: false
+  owner: zouyaoji
+  repo: github.com/zouyaoji/img_gitment
+  client_id: 1ae44aed6a14ec18b48b 
+  client_secret: cc37c66926a5af47204655fb665081b989c003b5
 
-# gitalk:
-#   enable: true
-#   clientID: ec55af22a64b9373e92b
-#   clientSecret: b096a409723c209bb38658af23af3414be36bad9
-#   repo: gitalkBlog
-#   owner: zouyaoji
-#   admin: zouyaoji
+gitalk:
+  enable: false
+  clientID: ec55af22a64b9373e92b
+  clientSecret: b096a409723c209bb38658af23af3414be36bad9
+  repo: gitalkBlog
+  owner: zouyaoji
+  admin: zouyaoji
 
 valine:
   enable: true
