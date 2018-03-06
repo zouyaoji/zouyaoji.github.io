@@ -11,7 +11,7 @@ install:
   - npm install
 
 before_script:
- # - npm install -g gulp
+ - npm install -g gulp
 
 script:
   - hexo algolia
