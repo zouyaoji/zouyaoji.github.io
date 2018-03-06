@@ -117,7 +117,7 @@ disqus:
 gitment:
   enable: true
   owner: zouyaoji
-  repo: gitalkBlog # github.com/zouyaoji/img_gitment
+  repo: github.com/zouyaoji/gitalkBlog
   client_id: ec55af22a64b9373e92b 
   client_secret: b096a409723c209bb38658af23af3414be36bad9
 
