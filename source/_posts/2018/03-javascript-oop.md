@@ -1,6 +1,6 @@
-# __proto__和prototype、call和apply学习总结
+# JavaScript面向对象学编程总结
 
-title: __proto__和prototype、call和apply学习总结
+title: JavaScript面向对象学编程总结
 tags:
 
 - 学习
