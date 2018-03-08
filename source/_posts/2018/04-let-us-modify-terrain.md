@@ -184,12 +184,15 @@ TIN地形缓存数据分块存储在多个文件夹中，每个文件夹下又�
 
 1. 加载数据源。数据源需要包含模型数据集和TIN地形数据。添加到场景中的示范效果如下：
 
+    ![TIN地形和模型数据示范效果](https://ws1.sinaimg.cn/large/7a5fa15ely1fp5djapc2dj20fm0b6am1)
 
 2. 打开布尔运算窗口。在“对象操作”选项卡上的“TIN地形操作”组中，单击“布尔运算”按钮，弹出布尔运算对话框如下：
 
     ![布尔运算](https://ws1.sinaimg.cn/large/7a5fa15ely1fp57f0xhkaj209b09fdft)
 
 3. 点击“确定“进行布尔运算。示例数据求差的运算结果如下：
+
+    ![布尔运算结果](https://ws1.sinaimg.cn/large/7a5fa15ely1fp5dlgrk3gj20gj0aswos)
 
 #### Tin 拉伸闭合体
 
