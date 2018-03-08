@@ -6,7 +6,6 @@ if theme.gitalk && theme.gitalk.enable
       clientSecret: '!{theme.gitalk.client_secret}',
       repo: '!{theme.gitalk.repo}',
       owner: '!{theme.gitalk.owner}',
-      admin: '!{theme.gitalk.admin}',
-      id: md5(location.href)
+      admin: '!{theme.gitalk.admin}'
     })
     gitalk.render('gitalk-container')
