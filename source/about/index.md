@@ -1,9 +1,12 @@
-title: About me
-date: 2018-01-31 09:16:38
-type: "about"
----
-
 # 关于我
+
+title: About me
+
+date: 2018-01-31 09:16:38
+
+type: "about"
+
+---
 
 ## 简介
 
