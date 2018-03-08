@@ -7,6 +7,6 @@ if theme.gitalk && theme.gitalk.enable
       repo: '!{theme.gitalk.repo}',
       owner: '!{theme.gitalk.owner}',
       admin: '!{theme.gitalk.admin}',
-      id: decodeURI(location.pathname)
+      id: md5(decodeURI(location.pathname))
     })
     gitalk.render('gitalk-container')
