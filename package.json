@@ -6,7 +6,8 @@
     "version": "3.6.0"
   },
   "scripts": {
-    "build": "hexo clean && hexo g"
+    "build": "hexo clean && hexo g",
+    "a": "hexo clean && hexo algolia && hexo g"
   },
   "dependencies": {
     "hexo": "^3.6.0",
@@ -17,7 +18,7 @@
     "hexo-generator-category": "^0.1.2",
     "hexo-generator-feed": "^1.1.0",
     "hexo-generator-index": "^0.2.1",
-    "hexo-generator-search": "^2.2.1",
+    "hexo-generator-searchdb": "^1.0.8",
     "hexo-generator-sitemap": "^1.1.2",
     "hexo-generator-tag": "^0.2.0",
     "hexo-migrator-wordpress": "^0.1.2",
