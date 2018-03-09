@@ -1,5 +1,5 @@
 username = "zouyaoji" # GitHub 用户名
-new_token = "e35c9d93c0ecf56cde3d02b121dc740fda2329b9"  # GitHub Token
+new_token = ARGV.first  # GitHub Token
 repo_name = "gitalkBlog" # 存放 issues
 sitemap_url = "http://zouyaoji.top/sitemap.xml" # sitemap
 kind = "Gitalk" # "Gitalk" or "gitment"
@@ -18,7 +18,7 @@ sitemap = SitemapParser.new sitemap_url
 urls = sitemap.to_a
 
 conn = Faraday.new(:url => "https://api.github.com/repos/#{username}/#{repo_name}/issues") do |conn|
-  conn.basic_auth(username, token)
+  conn.basic_auth(username, new_token)
   conn.adapter  Faraday.default_adapter
 end
 
