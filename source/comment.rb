@@ -11,8 +11,9 @@ require 'active_support/core_ext'
 require 'sitemap-parser'
 require 'openssl'
 
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+# OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 puts "Token: #{new_token}"
+puts "${GITALK_TOKEN}"
 
 sitemap = SitemapParser.new sitemap_url
 urls = sitemap.to_a
