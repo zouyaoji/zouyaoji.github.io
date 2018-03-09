@@ -9,6 +9,7 @@ cache:
 # S: Build Lifecycle
 install:
   - npm install
+  - gem install faraday activesupport sitemap-parser
 
 before_script:
 #  - npm install -g gulp
@@ -24,6 +25,7 @@ after_script:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - ruby comment.rb ${GITALK_TOKEN}
 # E: Build LifeCycle
 
 branches:
