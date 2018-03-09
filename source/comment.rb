@@ -1,5 +1,5 @@
 username = "zouyaoji" # GitHub 用户名
-new_token = ARGV.first  # GitHub Token
+new_token = "e35c9d93c0ecf56cde3d02b121dc740fda2329b9"  # GitHub Token
 repo_name = "gitalkBlog" # 存放 issues
 sitemap_url = "http://zouyaoji.top/sitemap.xml" # sitemap
 kind = "Gitalk" # "Gitalk" or "gitment"
@@ -13,7 +13,6 @@ require 'openssl'
 
 # OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 puts "Token: #{new_token}"
-puts "${GITALK_TOKEN}"
 
 sitemap = SitemapParser.new sitemap_url
 urls = sitemap.to_a

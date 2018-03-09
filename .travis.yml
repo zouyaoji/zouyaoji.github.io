@@ -25,7 +25,7 @@ after_script:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-  - ruby comment.rb ${TEST}
+  - ruby comment.rb ${GITALK_TOKEN}
 # E: Build LifeCycle
 
 branches:
