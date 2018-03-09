@@ -1,7 +1,7 @@
 username = "zouyaoji" # GitHub 用户名
 new_token = ARGV.first  # GitHub Token
 repo_name = "gitalkBlog" # 存放 issues
-sitemap_url = "https://zouyaoji.top/sitemap.xml" # sitemap
+sitemap_url = "http://zouyaoji.top/sitemap.xml" # sitemap
 kind = "Gitalk" # "Gitalk" or "gitment"
 
 require 'open-uri'
