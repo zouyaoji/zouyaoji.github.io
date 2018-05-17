@@ -8,17 +8,31 @@
   <a href="https://standardjs.com" target="_blank"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square"></a>
   <a href="" target="_blank"><img alt="license" src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square"></a>
   <a href="https://hexo.io" target="_blank"><img alt="hexo-image" src="https://img.shields.io/badge/hexo-%3E%3D3.0-blue.svg?style=flat-square"></a>
+  <a href="https://github.com/Molunerfinn/hexo-theme-melody/releases/latest">
+    <img src="https://img.shields.io/github/release/Molunerfinn/hexo-theme-melody.svg?style=flat-square" alt="">
+  </a>
 </p>
 
 A simple & beautiful & fast theme for Hexo.
 
+See demo:
 
-See demo: 
+* [molunerfinn.com](https://molunerfinn.com)
+* [Elody's Blog](https://elody-07.github.io)
+* [zouyaoji's Blog](https://zouyaoji.top/)
+* [flytreeleft's Blog](https://flytreeleft.org/)
+* [StaunchKai](http://staunchkai.com/)
+* [Crystalwindz's Blog](http://crystalwindz.com/)
+* [霪霖笙箫的博客](https://fridolph.github.io/)
+* [upupming 的博客](https://upupming.site/)
+* [徒然の博客](http://techotaku.me/)
+* [清白之年](https://www.wangfan.site/)
+* [sphc's blog](https://jkuvw.xyz/)
+* [HibisciDai's blog](https://hibiscidai.com/)
+* [李牧羊](https://www.limuyang.cc/)
+* [「Zeech」](http://zcheng.ren/)
 
-- [molunerfinn.com](https://molunerfinn.com)
-- [zouyaoji's Blog](https://zouyaoji.top/)
-- [flytreeleft's Blog](https://flytreeleft.org/)
-- [木](http://muller.nctu.me/)
+If you are using `theme-melody` and want to be shown to others like above, please write down your site in this [issue](https://github.com/Molunerfinn/hexo-theme-melody/issues/1)!
 
 # Documentation
 
@@ -64,17 +78,16 @@ IE >= 10
 
 # TODOS
 
-- ~~Doc~~
-- ~~Search~~ // Algolia support
-- ~~Analysis~~ // Baidu & Google analytics support
-- ~~MathJax~~ // MathJax support
-- ~~i18n~~ // zh-Hans & en support
-- ~~PWA~~ // v1.2 support
-- Performance optimization
-- ...
+* ~~Doc~~
+* ~~Search~~ // Algolia support
+* ~~Analysis~~ // Baidu & Google analytics support
+* ~~MathJax~~ // MathJax support
+* ~~i18n~~ // zh-Hans & en support
+* ~~PWA~~ // v1.2 support
+* Performance optimization
+* ...
 
 # License
-
 
 [MIT](http://opensource.org/licenses/MIT)
 
