@@ -51,11 +51,6 @@ stylesheets:
 
 # scripts loaded in the end of the body
 scripts:
-# - /js/third-party/anime.min.js
-# - /js/third-party/jquery.min.js
-# - /js/third-party/jquery.fancybox.min.js
-# - /js/third-party/velocity.min.js
-# - /js/third-party/velocity.ui.min.js 
 - /js/utils.js
 - /js/fancybox.js
 - /js/sidebar.js
@@ -64,15 +59,18 @@ scripts:
 - /js/transition.js
 - /js/scroll.js
 - /js/head.js
+
+# cdn for third-party library
+# ---------------
 cdn:
   css:
-    fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css 
+    fontawesome: https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css
   js:
-    anime: https://cdn.bootcss.com/animejs/2.0.2/anime.min.js
-    jquery: https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js
-    fancybox: https://cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.js
-    velocity: https://cdn.bootcss.com/velocity/1.5.0/velocity.min.js
-    velocity-ui: https://cdn.bootcss.com/velocity/1.5.0/velocity.ui.min.js 
+    anime: /js/third-party/anime.min.js
+    jquery: /js/third-party/jquery.min.js
+    fancybox: /js/third-party/jquery.fancybox.min.js
+    velocity: /js/third-party/velocity.min.js 
+    velocity-ui: /js/third-party/velocity.ui.min.js 
 
 # Post info settings
 
@@ -101,6 +99,24 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
+# auto_excerpt:
+#   enable: false
+#   length: 150
+# slide
+# For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
+slide:
+  separator: ---
+  separator_vertical: --
+  charset: utf-8
+  theme: black
+  # optional
+  mouseWheel: false
+  transition: slide
+  transitionSpeed: default
+  parallaxBackgroundImage: ''
+  parallaxBackgroundSize: ''
+  parallaxBackgroundHorizontal: null
+  parallaxBackgroundVertical: null
 QR_code:
   - itemlist:
       img: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzp5m1n6ij20be0bedgj
