@@ -32,6 +32,10 @@ type: "about"
 
 ## 工作经历：
 
+- **2018** 超图软件。超图三维平台各产品支撑。
+  - 基于BIM的果子沟桥隧群数字养护平台。
+  - 封装一个Cesium的Vue组件库[vue-supermap-cesium](https://github.com/zouyaoji/vue-supermap-cesium)。
+
 - **2017-2018** 超图软件。超图三维平台各产品支撑。
   - 参与支撑SuperMap iDesktop。
   - 参与支撑SuperMap iObject .NET。
