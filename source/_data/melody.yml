@@ -74,15 +74,15 @@ cdn:
 
 # Post info settings
 
-avatar: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzpc7bz84j204z04zdfv
+avatar: https://i.loli.net/2019/12/20/br5gE18mjsBO9AK.png
 
-top_img: https://ws1.sinaimg.cn/large/7a5fa15egy1freqmq8c9ij21hc0xc4ar
+top_img: https://i.loli.net/2019/12/20/kXR6KLoOcwDsUQy.jpg
 
 wordcount:
   enable: true
 
 social:
-  github: https://github.com/zouyaoji
+  github fa: https://github.com/zouyaoji
   # weibo: http://weibo.com/zouyaoji/
   # rss: https://zouyaoji.com/atom.xml
 
@@ -120,7 +120,7 @@ gitalk:
   enable: true
   client_id: ec55af22a64b9373e92b
   client_secret: b096a409723c209bb38658af23af3414be36bad9
-  repo: zouyaoji.github.io
+  repo: gitalkBlog
   owner: zouyaoji
   admin: zouyaoji
   language: zh-CN
