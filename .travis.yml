@@ -9,14 +9,13 @@ cache:
 # S: Build Lifecycle
 install:
   - npm install
-  # - gem install faraday activesupport sitemap-parser
 
 before_script:
 #  - npm install -g gulp
 
 script:
 #  - hexo clean && hexo g
- - hexo clean && hexo algolia && hexo g
+- hexo clean && hexo algolia && hexo g
 - cd ./public
 - git init
 - git config user.name "zouyaoji"
