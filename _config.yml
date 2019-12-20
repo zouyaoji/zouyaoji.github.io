@@ -83,7 +83,7 @@ algolia:
     - tags
     - categories
     - excerpt:strip:truncate,0,1000
-    - content:strip:truncate,0,3000
+    - content:strip:truncate,0,8000
     - slug
     - permalink
     - path
