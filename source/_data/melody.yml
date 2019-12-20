@@ -134,38 +134,15 @@ disqus:
   shortname: zouyaoji
   count: true
 
-gitment:
-  enable: false
-  owner: zouyaoji
-  repo: github.com/zouyaoji/gitalkBlog
-  client_id: ec55af22a64b9373e92b
-  client_secret: b096a409723c209bb38658af23af3414be36bad9
-
 gitalk:
   enable: true
   client_id: ec55af22a64b9373e92b
   client_secret: b096a409723c209bb38658af23af3414be36bad9
-  repo: gitalkBlog
+  repo: zouyaoji.github.io
   owner: zouyaoji
   admin: zouyaoji
-
-valine:
-  enable: false # if you want use valine,please set this value is ture
-  appId: 4e9HIF9qjBJFzOULfXgDxKWV-gzGzoHsz # leancloud application app id
-  appKey: PIX5B5elsvLCiEktWhHXEtEz # leancloud application app key
-  notify: true # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
-  verify: true # valine verify code (true/false)
-  pageSize: 10 # comment list page size
-  avatar: mm # gravatar style https://valine.js.org/#/avatar
-  lang: zh-cn # i18n: zh-cn/en
-  placeholder: ヾﾉ≧∀≦)o来啊，快活啊! # valine comment input placeholder(like: Please leave your footprints )
-  guest_info: nick,mail,link #valine comment header inf
-
-# MathJax
-# ---------------
-mathjax:
-  enable: false
-  cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  language: zh-CN
+  js: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
 
 adv:
   enable: false
