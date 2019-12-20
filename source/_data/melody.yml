@@ -24,7 +24,7 @@ highlight_theme: darker
 fireworks: true
 
 # Analysis
-baidu_analytics: 5262fb9059eb669db3504aace540f0c4
+baidu_analytics: 314a84423a8e6e8cec5b2e0ddd715bd7
 google_analytics: UA-113302031-1
 
 # algolia_search
