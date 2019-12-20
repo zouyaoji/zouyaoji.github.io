@@ -6,8 +6,7 @@
     "version": "3.6.0"
   },
   "scripts": {
-    "build": "hexo clean && hexo g",
-    "test": "hexo algolia"
+    "build": "hexo clean && hexo g"
   },
   "dependencies": {
     "hexo": "^4.1.1",
