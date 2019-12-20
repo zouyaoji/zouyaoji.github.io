@@ -71,4 +71,4 @@ type: "about"
 
 - **2010-2014** 成都理工大学地球科学学院地理信息系统专业。主要学习了 3S 技术、地图学、地质学、遥感测量、计算机编程(C++、C#、WebGIS)等专业课程。获得 2 次国家励志奖学金，1 次校级奖学金，2014 年学校优秀毕业生。
 
-![ideas](https://ws1.sinaimg.cn/large/7a5fa15ely1fnznb9sovlj228o1jlnpd)
+![ideas](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220165038.png)

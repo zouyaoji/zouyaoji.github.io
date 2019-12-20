@@ -1,5 +1,5 @@
 title: 2017小结
-tags: 
+tags:
   - 随笔
 categories:
   - 日志
@@ -24,7 +24,7 @@ date: 2018-1-1 21:01
 先后学习了前端JavaScript、CSS基础和公司前端产品，能保证自己工作岗位支持要求。然后逐步学习了jQuery、bootstrap、easyUI等前端js/css框架。大约2017年中的时候，又学习到了js模块话的思想，先后学习了AMD、CMD的一些规范。直到后来我发现有更新的东西等着我，我开始接触了es6的一些规范，学习了nodejs，学习了反人类工具webpack，以及它的一切皆模块思想。到这个时候，才基本上跟上了前端的发展步伐。于是我抓紧时间学习了webpack，那时候正是webpack1.0出来的时候，还记得后来webpack升级2.0了，规则改了很多，我的项目不能用了，采坑填坑了很久，才把项目升级成功。那时候还写了一篇博文：[webpack引入SuperMap iClient3D 8C for Plugin](http://blog.csdn.net/supermapsupport/article/details/56290480)。紧接着又了解到前端Vue框架，了解之后觉得是真的不错，开启了Vue学习之路，期间学习了es6语法，eslint代码编写规范，并且引入到自己项目中。
 
 总结一下，前端学习上目前学习nodejs、express、npm平台、vue全家桶、travis-ci，开始混迹于Github，并且发了第一个PR，而且得到了采纳。
-![https://github.com/Dafrok/vue-baidu-map/pull/285](https://ws1.sinaimg.cn/large/7a5fa15ely1fo0607zt0cj20vp0ootb7)当时还是很激动的。
+![https://github.com/Dafrok/vue-baidu-map/pull/285](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220171558.png)当时还是很激动的。
 
 刚申请了阿里云服务器，并且注册了域名，加油吧~
 

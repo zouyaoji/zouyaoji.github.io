@@ -24,7 +24,7 @@ Visual Studio Code刚出来的时候我就开始使用了，理由很简单：
 - 微软出品、实力保证
 
 微软对于VSCode的定位如下图，位于编辑器与IDE之间，像是披着编辑器外衣的IDE，更像是披着IDE外衣的编辑器。
-![VSCode定位](https://ws1.sinaimg.cn/large/7a5fa15ely1fo1weqwiqxj20jg0avgnr)
+![VSCode定位](https://i.loli.net/2019/12/20/vFZVHjukqTtoRnO.png)
 
 在这儿我要赞一波Visual Studio Code，我认为它是最好用的开源文本编辑器，在保持其性能的基础上集成了很多IDE功能，可以说是微软良心出品，浓浓的微软情怀。[点我看更多VSCode评价](https://www.zhihu.com/question/29984607)。
 
@@ -40,43 +40,43 @@ Visual Studio Code之所以体验很好，其中很重要的一点原因是其�
 
 - Material风格
 
-![Material Icon Theme](https://ws1.sinaimg.cn/large/7a5fa15ely1fo20pmmjbfj20v91in7ah)
+![Material Icon Theme](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220163440.png)
 
 ### [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 
 - 图标很全、风格不错
 
-![vscode-icons](https://ws1.sinaimg.cn/large/7a5fa15ely1fo20rjx9rxg20m80gonpe)
+![vscode-icons](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo20rjx9rxg20m80gonpe.gif)
 
 ### [VSCode Greate Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
 
 - 风格不错
 
-![VSCode Greate Icons](https://ws1.sinaimg.cn/large/7a5fa15ely1fo20tay43ij20tc0j7767)
+![VSCode Greate Icons](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220163835.png)
 
 ### [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
 
 - One Dark Theme based on Atom
 
-![Atom One Dark Theme](https://ws1.sinaimg.cn/large/7a5fa15ely1fo211kzao5j20ty0i2t8x)
+![Atom One Dark Theme](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220163851.png)
 
 ### [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
 - Atom's iconic One Dark theme for Visual Studio Code
 
-![One Dark Pro](https://ws1.sinaimg.cn/large/7a5fa15ely1fo20nyywytj21r41cwq55)
+![One Dark Pro](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220163905.png)
 
 ### [One Dark Vivid](https://marketplace.visualstudio.com/items?itemName=kkozee.theme-one-dark-vivid)
 
 - Atom's One Dark Vivid Theme for VS Code
 
-![One Dark Vivid](https://ws1.sinaimg.cn/large/7a5fa15ely1fo21djx9qgj21q60zcq6g)
+![One Dark Vivid](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164001.png)
 
 ### [Monokai Dark Soda](https://marketplace.visualstudio.com/items?itemName=AdamCaviness.theme-monokai-dark-soda)
 
 - A dark theme with bright colors
 
-![Monokai Dark Soda](https://ws1.sinaimg.cn/large/7a5fa15ely1fo21a6le37j20p00kugo3)
+![Monokai Dark Soda](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164019.png)
 
 ## 前端插件扩展
 
@@ -86,19 +86,19 @@ VSCode插件扩展很多，但常用的也就那么些个，可以按照自己�
 
 - Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does. 为你的HTML标签自动添加结束标签。
 
-![Auto Close Tag](https://ws1.sinaimg.cn/large/7a5fa15ely1fo21yne23fg21400q2ajs)
+![Auto Close Tag](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo21yne23fg21400q2ajs.gif)
 
 ### [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
 - Auto rename paired HTML/XML tag. 自动帮你修改成对的HTML/XML标签。
 
-![Auto Rename Tag](https://ws1.sinaimg.cn/large/7a5fa15ely1fo220e5wqsg21400q2q6y)
+![Auto Rename Tag](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo220e5wqsg21400q2q6y.gif)
 
 ### [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 - Visual Studio Code plugin that autocompletes filenames. 自动帮你补全引用路径.
 
-![Path Intellisense](https://ws1.sinaimg.cn/large/7a5fa15ely1fo2249685sg20dc07i411)
+![Path Intellisense](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo2249685sg20dc07i411.gif)
 
 ### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
@@ -112,32 +112,32 @@ VSCode插件扩展很多，但常用的也就那么些个，可以按照自己�
 
 - A customizable extension for colorizing matching brackets. 帮你把配对的小括号、中括号、大括号用不同的颜色区分，方便查看。
 
-![Bracket Pair Colorizer](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22b24j4vj208901owec)
+![Bracket Pair Colorizer](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164232.png)
 
 ### [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
 - Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol. 在谷歌浏览器中调试js代码，并且可以在VSCode中打断点。
 
-![Debugger for Chrome](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22fy3o0jg21400p0npl)
+![Debugger for Chrome](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo22fy3o0jg21400p0npl.gif)
 
 ### [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 
 - npm support for VS Code. 装了它可以让VSCode有NPM的一些功能，还能提示你package.json中哪些依赖模块没有安装。
 
-![npm1](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22ir81txj20h60bo75d)
-![npm2](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22ixb8n6j20go03yaa2)
+![npm1](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164318.png)
+![npm2](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164330.png)
 
 ### [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
 - Visual Studio Code plugin that autocompletes npm modules in import statements. 装了它，在js中引入npm包的时候可以帮你自动补全。
 
-![npm Intellisense](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22ll6pcfg20pv07t7hn)
+![npm Intellisense](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo22ll6pcfg20pv07t7hn.gif)
 
 ### [Full HTML tags including HTML5 Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 
 - Full HTML tags including HTML5 Snippets. 让VSCode支持HTML5的代码片段.
 
-![Full HTML tags including HTML5 Snippets](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22u7cx1sg20ny0gydqz)
+![Full HTML tags including HTML5 Snippets](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo22u7cx1sg20ny0gydqz.gif)
 
 ### [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
@@ -147,31 +147,31 @@ VSCode插件扩展很多，但常用的也就那么些个，可以按照自己�
 
 - Over 130 jQuery Code Snippets for JavaScript code. jQuery代码块插件.
 
-![jQuery Code Snippets](https://ws1.sinaimg.cn/large/7a5fa15ely1fo23pfs6h0j20kg0fmweh)
+![jQuery Code Snippets](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164438.png)
 
 ### [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 
 - Automatically generates detailed JSDoc comments in TypeScript and JavaScript files. ts或者js中自动生成详细的注释。
 
-![Document This](https://ws1.sinaimg.cn/large/7a5fa15ely1fo23b5kf4lg213i0ty0xq)
+![Document This](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo23b5kf4lg213i0ty0xq.gif)
 
 ### [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus)
 
 - Stylus language support. 让VSCode支持Stylus语法。
 
-![language-stylus](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22wos68yg20ns0egakp)
+![language-stylus](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo22wos68yg20ns0egakp.gif)
 
 ### [Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)
 
 - Indented Sass syntax highlighting, autocomplete & snippets. 让VSCode支持Sass语法、高亮、自动补全、代码片段。
 
-![Sass](https://ws1.sinaimg.cn/large/7a5fa15ely1fo22zi84kgj20rd0hz74i)
+![Sass](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164535.png)
 
 ### [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
 
 - SVG Viewer for Visual Studio Code. 让VSCode可以预览SVG格式的图片。
 
-![SVG Viewer](https://ws1.sinaimg.cn/large/7a5fa15ely1fo23tsyucjg20nd0ib0we)
+![SVG Viewer](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo23tsyucjg20nd0ib0we.gif)
 
 ### [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
@@ -189,8 +189,8 @@ VSCode插件扩展很多，但常用的也就那么些个，可以按照自己�
 
 - A Vue.js 2 Extension. 这个插件基于最新的 Vue 官方语法高亮文件添加了Syntax Highlight，并且依据 Vue 2 的 API 添加了Code Snippets。
 
-![Vue 2 Snippets1](https://ws1.sinaimg.cn/large/7a5fa15ely1fo249be7dpj209c0brt8o)
-![Vue 2 Snippet2](https://ws1.sinaimg.cn/large/7a5fa15ely1fo249fz9f5j20do08dt8k)
+![Vue 2 Snippets1](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164616.png)
+![Vue 2 Snippet2](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164634.png)
 
 ## 通用工具插件扩展
 
@@ -198,25 +198,25 @@ VSCode插件扩展很多，但常用的也就那么些个，可以按照自己�
 
 - Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist. 重点推荐Settings Sync，这个插件的功能是帮你同步VsCode插件的，只要你上传了你的插件配置，家里和办公区电脑，重装系统后，都能同步，而且轻松就能分享你安装的插件给他人。可以理解为你VSCode的插件和设置，都帮你云备份了，你随时可以更新、下载，是通过GitHub的Personal Access Token备份的，如果没有的话，是时候申请一个[GitHub](https://github.com/)号了。
 
-![Settings Sync](https://ws1.sinaimg.cn/large/7a5fa15ely1fo221x1em6g20hs0991l0)
+![Settings Sync](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo221x1em6g20hs0991l0.gif)
 
 ### [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 - Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD, BASH, F#, C#, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml, R, AppleScript, Elixir, VB.NET, Clojure, Haxe, Objective-C, Rust, Racket, AutoHotkey, AutoIt, Kotlin, Dart, Pascal, Haskell, Nim, D. 可以在VSCode运行以上语法的代码片段，可以说很强大。
 
-![Code Runner](https://ws1.sinaimg.cn/large/7a5fa15ely1fo24dej24gg21fo0xwwjh)
+![Code Runner](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo24dej24gg21fo0xwwjh.gif)
 
 ### [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 - View git log, file history, compare branches or commits. 可以让你看到git源代码的日志，包括文件编辑历史，和以前分支对比等。推荐。
 
-![Git History](https://ws1.sinaimg.cn/large/7a5fa15ely1fo24gfubm0g20zk0m87wk)
+![Git History](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo24gfubm0g20zk0m87wk.gif)
 
 ### [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 - Supercharge Visual Studio Code's Git capabilities — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore the history of a file or branch, gain valuable insights via powerful comparison commands, and so much more. 加强VSCode的Git功能，通过git clone命令下来的项目，都在每一个文件每一行中看见原创作者提交时的日志，包括你修改时提交的日志，并且有对比功能。
 
-![Git Lens — git blame annotations, code lens, and more](https://ws1.sinaimg.cn/large/7a5fa15ely1fo24jbjm9jg20k70gonpe)
+![Git Lens — git blame annotations, code lens, and more](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo24jbjm9jg20k70gonpe.gif)
 
 ### [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
@@ -226,14 +226,14 @@ VSCode插件扩展很多，但常用的也就那么些个，可以按照自己�
 
 All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more). 加强VSCode markdown文件的编辑能力，增加markdown语法快捷键，优化list编辑，格式化等。
 
-![Markdown All in One1](https://ws1.sinaimg.cn/large/7a5fa15ely1fo24sf5b2tg20k50a5mxv)
-![Markdown All in One2](https://ws1.sinaimg.cn/large/7a5fa15ely1fo24skl69sg20k50a5gmh)
+![Markdown All in One1](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo24sf5b2tg20k50a5mxv.gif)
+![Markdown All in One2](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo24skl69sg20k50a5gmh.gif)
 
 ### [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
 - Markdown Preview Enhanced ported to vscode. 增强VSCode的Markdown文件预览功能.
 
-![Markdown Preview Enhanced](https://ws1.sinaimg.cn/large/7a5fa15ely1fo251uikkaj210i0m6q81)
+![Markdown Preview Enhanced](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/20191220164950.png)
 
 ## 其他语言支持插件扩展
 
@@ -261,7 +261,7 @@ All you need to write Markdown (keyboard shortcuts, table of contents, auto prev
 
 - Rich Go language support for Visual Studio Code. 加强VSCode对GO语言的支持。
 
-![Go](https://ws1.sinaimg.cn/large/7a5fa15ely1fo254iqr4pg20qw0gz4qq)
+![Go](https://zouyaoji-1300719013.cos.ap-chengdu.myqcloud.com/zouyaoji.top/7a5fa15ely1fo254iqr4pg20qw0gz4qq.gif)
 
 ### [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 
