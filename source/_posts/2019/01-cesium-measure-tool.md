@@ -15,7 +15,7 @@ date: 2019-12-20 19:30:00
 
 ## 前言
 
-近期工作之余都在继续开发个人开源项目 **[vue-cesium](https://github.com/zouyaoji/vue-cesium)** ，在最近学习中发现自己之前码的代码不太优雅，不太精炼，所以花不少时间重构了第二版，获益匪浅。其中就发现之前做的量算功能结果不太合适，尤其是面积量算，看网上很少有正确的思路，所以在这儿记录核心代码，详细请移步 GitHub 查看，欢迎提 Issue、PR，顺便小手点个 Star 也可以。`vue-cesium` 在 2.0.3 版本将会优化量算组件。
+近期工作之余都在继续开发个人开源项目 **[vue-cesium](https://github.com/zouyaoji/vue-cesium)** ，在最近学习中发现自己之前码的代码不太优雅，不太精炼，所以花不少时间重构了第二版，获益匪浅。其中就发现之前做的量算功能结果不太合适，尤其是面积量算，看网上很少有正确的思路，所以在这儿记录核心代码，详细请移步 GitHub 查看，欢迎提 Issue、PR，顺便小手点个 Star 也可以。`vue-cesium` 在 2.0.3 版本将会优化量算组件，在线体验地址: [https://zouyaoji.top/vue-cesium/#/zh/tool/vc-measuring](https://zouyaoji.top/vue-cesium/#/zh/tool/vc-measuring)
 
 <!-- more -->
 
