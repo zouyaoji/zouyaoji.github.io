@@ -122,8 +122,8 @@ image_minifier:
   enable: false
 
 owner: zouyaoji
-comment_repo: zouyaoji.github.io
-labels: ["comment"]
+comment_repo: gitalkBlog
+labels: ["Gitalk"]
 
 offline:
   maximumFileSizeToCacheInBytes: 10485760
