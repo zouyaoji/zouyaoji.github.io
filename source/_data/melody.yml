@@ -64,13 +64,13 @@ scripts:
 # ---------------
 cdn:
   css:
-    fontawesome: https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css
+    fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
   js:
-    anime: /js/third-party/anime.min.js
-    jquery: /js/third-party/jquery.min.js
-    fancybox: /js/third-party/jquery.fancybox.min.js
-    velocity: /js/third-party/velocity.min.js
-    velocity-ui: /js/third-party/velocity.ui.min.js
+    anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
+    jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+    fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+    velocity: https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js
+    velocity-ui: https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js
 
 # Post info settings
 
@@ -130,7 +130,6 @@ adv:
   enable: false
   info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="100%" height="90"></a>
 
-
 since: 2018
 
 ICP:
@@ -139,16 +138,17 @@ ICP:
 
 # busuanzi count for PV / UV in site
 busuanzi:
+  # count values only if the other configs are false
   enable: true
-  # 全站uv
+  # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
-  # 全站pv
+  # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
-  # 单独页面pv
+  # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
@@ -158,8 +158,8 @@ busuanzi:
 # Links
 links_title: Links
 links:
-  zouyaoji: https://zouyaoji.top
   发现中国: https://www.ageeye.cn/
+  vue-cesium: https://zouyaoji.top/vue-cesium
 
 # Version
 version: 1.4
