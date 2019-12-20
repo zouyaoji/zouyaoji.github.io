@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "hexo clean && hexo g",
-    "a": "hexo clean && hexo algolia && hexo g"
+    "test": "hexo algolia"
   },
   "dependencies": {
     "hexo": "^3.6.0",

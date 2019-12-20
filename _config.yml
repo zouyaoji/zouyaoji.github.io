@@ -77,6 +77,10 @@ search:
   field: post
 
 algolia:
+  appId: "0R3ZAIXMAH"
+  apiKey: "4f58affd3789543c7f5ece8c680cf159"
+  adminApiKey: "24d5940a304674b859fc36c93bf5ac53"
+  indexName: "zouyaojiTop"
   chunkSize: 5000
   fields:
     - title
