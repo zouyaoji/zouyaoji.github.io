@@ -29,7 +29,7 @@ google_analytics: UA-113302031-1
 
 # algolia_search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
@@ -40,7 +40,7 @@ algolia_search:
 # Local search
 # ---------------
 local_search:
-  enable: true
+  enable: false
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"
@@ -69,8 +69,8 @@ cdn:
     anime: /js/third-party/anime.min.js
     jquery: /js/third-party/jquery.min.js
     fancybox: /js/third-party/jquery.fancybox.min.js
-    velocity: /js/third-party/velocity.min.js 
-    velocity-ui: /js/third-party/velocity.ui.min.js 
+    velocity: /js/third-party/velocity.min.js
+    velocity-ui: /js/third-party/velocity.ui.min.js
 
 # Post info settings
 
@@ -87,7 +87,7 @@ social:
   # rss: https://zouyaoji.com/atom.xml
 
 post_meta:
-  date_type: created # created or updated 
+  date_type: created # created or updated
   categories: true
   tags: true
 
@@ -138,7 +138,7 @@ gitment:
   enable: false
   owner: zouyaoji
   repo: github.com/zouyaoji/gitalkBlog
-  client_id: ec55af22a64b9373e92b 
+  client_id: ec55af22a64b9373e92b
   client_secret: b096a409723c209bb38658af23af3414be36bad9
 
 gitalk:
@@ -176,7 +176,7 @@ since: 2018
 
 ICP:
   enable: false
-  text: 
+  text:
 
 # busuanzi count for PV / UV in site
 busuanzi:
@@ -185,15 +185,15 @@ busuanzi:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer: 
+  site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer: 
+  site_pv_footer:
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer: 
+  page_pv_footer:
 
 # Sidebar Settings
 

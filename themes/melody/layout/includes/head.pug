@@ -9,16 +9,43 @@ if theme.algolia_search.enable
 
 if (theme.gitment && theme.gitment.enable)
   link(rel="dns-prefetch" href="https://unpkg.com")
-  link(rel="stylesheet" type="text/css" href="https://unpkg.com/gitment@latest/style/default.css")
-  script(src="https://unpkg.com/gitment@latest/dist/gitment.browser.js")
+  link(rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitment/style/default.min.css")
+  script(src="https://cdn.jsdelivr.net/npm/gitment/dist/gitment.browser.min.js")
+  script(src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js")
 
 if (theme.gitalk && theme.gitalk.enable)
-  link(rel="stylesheet" type="text/css" href="https://unpkg.com/gitalk/dist/gitalk.css")
-  script(src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js")
-  script(src="https://unpkg.com/blueimp-md5@latest/js/md5.min.js")
+  link(rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css")
+  if(theme.gitalk.js)
+    script(src=theme.gitalk.js)
+  else
+    script(src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js")
+  script(src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js")
 
 if (theme.pwa && theme.pwa.enable)
   link(rel="manifest" href=theme.pwa.manifest)
+
+if (theme.pwa && theme.pwa.enable)
+  link(rel="manifest" href=theme.pwa.manifest)
+  if(theme.pwa.theme_color) 
+    meta(name="theme-color" content=theme.pwa.theme_color)
+  if(theme.pwa.theme_color) 
+    meta(name="msapplication-TileColor" content=theme.pwa.theme_color)
+  if(theme.pwa.apple_touch_icon) 
+    link(rel="apple-touch-icon" sizes="180x180" href=theme.pwa.apple_touch_icon)
+  if(theme.pwa.favicon_32_32) 
+    link(rel="icon" type="image/png" sizes="32x32" href=theme.pwa.favicon_32_32)
+  if(theme.pwa.favicon_16_16)
+    link(rel="icon" type="image/png" sizes="16x16" href=theme.pwa.favicon_16_16)
+  if(theme.pwa.theme_color)
+    link(rel="mask-icon" href=theme.pwa.mask_icon color=theme.pwa.theme_color)
+
+if (theme.google_adsense && theme.google_adsense.enable)
+  script(async src=theme.google_adsense.js)
+  script.
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: '!{theme.google_adsense.client}',
+      enable_page_level_ads: '!{theme.google_adsense.enable_page_level_ads}'
+    });
 
 if theme.baidu_analytics
   link(rel="dns-prefetch" href="https://hm.baidu.com")
@@ -40,3 +67,12 @@ if theme.google_analytics
 
     ga('create', '!{theme.google_analytics}', 'auto');
     ga('send', 'pageview');
+if theme.tencent_analytics
+  link(rel="dns-prefetch" href="http://ta.qq.com")
+  script.
+   (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://tajs.qq.com/stats?sId=#{theme.tencent_analytics}";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();

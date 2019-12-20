@@ -5,27 +5,36 @@ node_js: node
 cache:
   directories:
     - node_modules
-    
+
 # S: Build Lifecycle
 install:
   - npm install
-  - gem install faraday activesupport sitemap-parser
+  # - gem install faraday activesupport sitemap-parser
 
 before_script:
 #  - npm install -g gulp
 
 script:
- - hexo clean && hexo g
+#  - hexo clean && hexo g
+ - hexo clean && hexo algolia && hexo g
+- cd ./public
+- git init
+- git config user.name "zouyaoji"
+- git config user.email "370681295@qq.com"
+- git add .
+- git commit -m "Update docs"
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# - ruby comment.rb ${GITALK_TOKEN}
 
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "zouyaoji"
-  - git config user.email "370681295@qq.com"
-  - git add .
-  - git commit -m "Update docs"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-  - ruby comment.rb ${GITALK_TOKEN}
+# after_script:
+#   - cd ./public
+#   - git init
+#   - git config user.name "zouyaoji"
+#   - git config user.email "370681295@qq.com"
+#   - git add .
+#   - git commit -m "Update docs"
+#   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+#   - ruby comment.rb ${GITALK_TOKEN}
 # E: Build LifeCycle
 
 branches:
