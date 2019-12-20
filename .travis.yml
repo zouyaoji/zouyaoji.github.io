@@ -14,7 +14,8 @@ before_script:
 #  - npm install -g gulp
 
 script:
-- hexo clean && hexo g && hexo algolia
+# - hexo clean && hexo g && hexo algolia
+- hexo clean && hexo g
 - cd ./public
 - git init
 - git config user.name "zouyaoji"
