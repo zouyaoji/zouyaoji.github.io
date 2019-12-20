@@ -15,8 +15,8 @@ before_script:
 
 script:
 #  - hexo clean && hexo g
-# - hexo clean && hexo algolia && hexo g
-- hexo algolia
+- hexo clean && hexo g && hexo algolia
+# - hexo algolia
 - cd ./public
 - git init
 - git config user.name "zouyaoji"
