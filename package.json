@@ -10,7 +10,7 @@
     "test": "hexo algolia"
   },
   "dependencies": {
-    "hexo": "^3.1.0",
+    "hexo": "^4.1.1",
     "hexo-algoliasearch": "^0.4.1",
     "hexo-all-minifier": "^0.2.6",
     "hexo-deployer-git": "^0.2.0",
