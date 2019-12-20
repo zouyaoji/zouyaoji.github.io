@@ -99,31 +99,13 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# auto_excerpt:
-#   enable: false
-#   length: 150
-# slide
-# For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
-slide:
-  separator: ---
-  separator_vertical: --
-  charset: utf-8
-  theme: black
-  # optional
-  mouseWheel: false
-  transition: slide
-  transitionSpeed: default
-  parallaxBackgroundImage: ''
-  parallaxBackgroundSize: ''
-  parallaxBackgroundHorizontal: null
-  parallaxBackgroundVertical: null
-QR_code:
-  - itemlist:
-      img: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzp5m1n6ij20be0bedgj
-      text: 支付宝打赏
-  - itemlist:
-      img: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzp1fy7ewj20be0bewew
-      text: 微信打赏
+# QR_code:
+#   - itemlist:
+#       img: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzp5m1n6ij20be0bedgj
+#       text: 支付宝打赏
+#   - itemlist:
+#       img: https://ws1.sinaimg.cn/large/7a5fa15ely1fnzp1fy7ewj20be0bewew
+#       text: 微信打赏
 
 addThis:
   enable: true
@@ -157,17 +139,16 @@ ICP:
 
 # busuanzi count for PV / UV in site
 busuanzi:
-  # count values only if the other configs are false
   enable: true
-  # custom uv span for the whole site
+  # 全站uv
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
-  # custom pv span for the whole site
+  # 全站pv
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
-  # custom pv span for one page only
+  # 单独页面pv
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
@@ -182,3 +163,33 @@ links:
 
 # Version
 version: 1.4
+
+slide:
+  separator: ===
+  separator_vertical: ==
+  charset: utf-8
+  theme: black
+  loop: false
+  showNotes: false
+  autoPlayMedia: null
+  autoSlide: 0
+  autoSlideStoppable: true
+  mouseWheel: false
+  hideAddressBar: true
+  transition: slide
+  transitionSpeed: default
+  parallaxBackgroundImage: ''
+  parallaxBackgroundSize: ''
+  parallaxBackgroundHorizontal: null
+  parallaxBackgroundVertical: null
+
+follow:
+  enable: true
+  url: 'https://github.com/zouyaoji'
+  text: 'Follow Me'
+
+google_adsense:
+  enable: true
+  js: //pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  client: ca-pub-3445228872340333
+  enable_page_level_ads: true
