@@ -1,0 +1,31 @@
+name: Deploy Blog Website
+on:
+  push:
+    branches:
+      - hexo
+
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        run: sh ./scripts/deploy.sh
+        env:
+          GH_TOKEN: ${{env.GH_TOKEN}}
+          GH_REF: github.com/zouyaoji/zouyaoji.github.io.git
