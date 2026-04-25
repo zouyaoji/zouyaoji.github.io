@@ -7,11 +7,11 @@ on:
 jobs:
   deploy-blogs:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
       - name: Setup node
         uses: actions/setup-node@v4
@@ -31,7 +31,8 @@ jobs:
         run: pnpm run build
 
       - name: Deploy
-        run: sh ./scripts/deploy.sh
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_REF: github.com/zouyaoji/zouyaoji.github.io.git
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: master
