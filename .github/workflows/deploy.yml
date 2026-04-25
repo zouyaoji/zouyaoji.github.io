@@ -9,18 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '12'
+          node-version: '20'
           registry-url: https://registry.npmjs.com/
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build
@@ -28,5 +28,5 @@ jobs:
       - name: Deploy
         run: sh ./scripts/deploy.sh
         env:
-          GH_TOKEN: ${{secrets.GH_TOKEN}}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_REF: github.com/zouyaoji/zouyaoji.github.io.git
