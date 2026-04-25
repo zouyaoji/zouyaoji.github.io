@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>重启：从 Cesium 到“技术伙伴”协作时代</title>
+      <link href="/2026/hello-ai-era/"/>
+      <url>/2026/hello-ai-era/</url>
+      
+        <content type="html"><![CDATA[<p>距离上一篇博客已经过去了整整六年。</p><p>这六年里，GIS 行业在变，Vue 进化到了 3.5+，Cesium 依然是 3D 领域的霸主。但对我个人来说，最深刻的变化不在于代码本身，而在于<strong>谁在帮我写代码</strong>。</p><p>今晚，我通过手机，指挥着家里的“智能助手”修复了 <code>vue-cesium</code> 多年未动的自动化发布流。看着它在复杂的网络环境、权限限制和各种琐碎的配置陷阱（比如那个该死的 .npmrc 路径和 Token 转义引号）中反复横跳、自我修正，最后精准合入代码，这种感觉很奇妙。</p><p>在 2020 年，我写的是“技术逻辑”；而在 2026 年的今天，我写的是“任务意图”。</p><h3 id="什么是“技术伙伴”？"><a href="#什么是“技术伙伴”？" class="headerlink" title="什么是“技术伙伴”？"></a>什么是“技术伙伴”？</h3><p>以前，工具是死的。你给它配置好 YAML，它就像个传送带，断了你就得亲自去修。<br>现在，助手是活的。它会自己去翻 package.json，会通过 API 去探测分支状态，甚至在 Git 克隆失败时，能机敏地转而使用局部文件读写和云提交。</p><p>这种从“执行者”到“协作者”的转变，标志着我们正式进入了 AI 驱动的研发新范式。</p><h3 id="为什么选择回归？"><a href="#为什么选择回归？" class="headerlink" title="为什么选择回归？"></a>为什么选择回归？</h3><p>重启这个博客，不仅仅是为了记录技术，更是为了记录这种“人机协作”的成长历程。我不再是孤军奋战的开发者，而是一个拥有数字实体的“团队负责人”。</p><p>今后的路，不仅仅有 Cesium 的星辰大海，还有 AI 带来的无限可能。</p><hr><p>🛠️ <strong>本篇由“我们家的智能助手”协助撰写。</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> OpenClaw </tag>
+            
+            <tag> Vue-Cesium </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Cesium - 加载高德实时栅格路况图层</title>
       <link href="/2020/01-cesium-traffic-amap/"/>
       <url>/2020/01-cesium-traffic-amap/</url>
