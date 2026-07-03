@@ -31,7 +31,6 @@
     "hexo-wordcount": "^6.0.1"
   },
   "devDependencies": {
-    "hexo-console-optimize": "0.0.5",
     "hexo-generator-feed": "^1.1.0"
   }
 }
