@@ -62,6 +62,10 @@ algolia_search:
   hits:
     per_page: 10
 
+# Algolia site verification
+# ---------------
+algolia_site_verification: 872D530159005E01
+
 # Local search
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/third-party-support.html#local-search
 # ---------------

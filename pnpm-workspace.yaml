@@ -1,0 +1,9 @@
+allowBuilds:
+  core-js: true
+  es5-ext: true
+  gifsicle: true
+  highlight.js: true
+  jpegtran-bin: true
+  mozjpeg: true
+  optipng-bin: true
+  pngquant-bin: true
